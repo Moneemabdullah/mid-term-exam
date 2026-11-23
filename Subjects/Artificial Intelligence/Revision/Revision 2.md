@@ -31,7 +31,7 @@ last_updated: 2026-11-21
 
 ## Weak topic revisit
 
-- [ ] Review [[Subjects/Artificial Intelligence/Weak Topics|Weak Topics]].
+- [ ] Review [Weak Topics](/Subjects/Artificial Intelligence/Weak Topics.md).
 - [ ] Re-learn each unresolved topic from the source.
 - [ ] Record evidence of improvement.
 
@@ -40,4 +40,4 @@ last_updated: 2026-11-21
 - [ ] You can explain each major topic without notes.
 - [ ] Past questions are attempted.
 - [ ] Weak topics are reduced.
-- [ ] [[Revision Tracker]] is updated.
+- [ ] [Revision Tracker](/Revision Tracker.md) is updated.

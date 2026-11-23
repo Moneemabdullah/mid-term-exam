@@ -19,35 +19,35 @@ last_updated: 2026-11-23
 > **Materials collected; summaries and class-test answers added.** Study and revision are not complete.
 
 > [!tip] Start here — subject hub
-> 1. [[Subjects/Ethics/Syllabus|Syllabus]] + [[Subjects/Ethics/Teacher Suggestions|Teacher Suggestions]] — scope.
-> 2. [[Subjects/Ethics/Lecture Summary|Lecture Summary]] + [[Subjects/Ethics/Important Topics|Important Topics]] — first pass.
-> 3. [[Subjects/Ethics/Previous Questions|Previous Questions]] — closed-book practice.
-> 4. [[Subjects/Ethics/Weak Topics|Weak Topics]] — repair errors.
-> 5. [[Subjects/Ethics/Revision/Revision 1|Revision 1]] → [[Subjects/Ethics/Revision/Revision 2|Revision 2]] → [[Subjects/Ethics/Revision/Exam Day|Exam Day]].
-> 6. [[Subjects/Ethics/Study Materials/README|Study Materials]] + [[Subjects/Ethics/Lecture Notes/README|Lecture Notes]] + [[Subjects/Ethics/Resources|Resources]] — sources and general links.
-> - How to study: [[Learning Workflow]] · What to study today: [[Daily Study Lineup]]
+> 1. [Syllabus](/Subjects/Ethics/Syllabus.md) + [Teacher Suggestions](/Subjects/Ethics/Teacher Suggestions.md) — scope.
+> 2. [Lecture Summary](/Subjects/Ethics/Lecture Summary.md) + [Important Topics](/Subjects/Ethics/Important Topics.md) — first pass.
+> 3. [Previous Questions](/Subjects/Ethics/Previous Questions.md) — closed-book practice.
+> 4. [Weak Topics](/Subjects/Ethics/Weak Topics.md) — repair errors.
+> 5. [Revision 1](/Subjects/Ethics/Revision/Revision 1.md) → [Revision 2](/Subjects/Ethics/Revision/Revision 2.md) → [Exam Day](/Subjects/Ethics/Revision/Exam Day.md).
+> 6. [Study Materials](/Subjects/Ethics/Study Materials/README.md) + [Lecture Notes](/Subjects/Ethics/Lecture Notes/README.md) + [Resources](/Subjects/Ethics/Resources.md) — sources and general links.
+> - How to study: [Learning Workflow](/Learning Workflow.md) · What to study today: [Daily Study Lineup](/Daily Study Lineup.md)
 
 ## Quick links
 
-- [[Subjects/Ethics/Syllabus|Syllabus]]
-- [[Subjects/Ethics/Lecture Summary|Lecture Summary]]
-- [[Subjects/Ethics/Important Topics|Important Topics]]
-- [[Subjects/Ethics/Previous Questions|Previous Questions]]
-- [[Subjects/Ethics/Teacher Suggestions|Teacher Suggestions]]
-- [[Subjects/Ethics/Weak Topics|Weak Topics]]
-- [[Subjects/Ethics/Resources|Resources]]
-- [[Subjects/Ethics/Revision/Revision 1|Revision 1]]
-- [[Subjects/Ethics/Revision/Revision 2|Revision 2]]
-- [[Subjects/Ethics/Revision/Exam Day|Exam Day]]
+- [Syllabus](/Subjects/Ethics/Syllabus.md)
+- [Lecture Summary](/Subjects/Ethics/Lecture Summary.md)
+- [Important Topics](/Subjects/Ethics/Important Topics.md)
+- [Previous Questions](/Subjects/Ethics/Previous Questions.md)
+- [Teacher Suggestions](/Subjects/Ethics/Teacher Suggestions.md)
+- [Weak Topics](/Subjects/Ethics/Weak Topics.md)
+- [Resources](/Subjects/Ethics/Resources.md)
+- [Revision 1](/Subjects/Ethics/Revision/Revision 1.md)
+- [Revision 2](/Subjects/Ethics/Revision/Revision 2.md)
+- [Exam Day](/Subjects/Ethics/Revision/Exam Day.md)
 
 ## Folders
 
-- **Lecture notes:** [[Subjects/Ethics/Lecture Notes/README|Lecture Notes]]
-- **Study materials:** [[Subjects/Ethics/Study Materials/README|Study Materials]]
+- **Lecture notes:** [Lecture Notes](/Subjects/Ethics/Lecture Notes/README.md)
+- **Study materials:** [Study Materials](/Subjects/Ethics/Study Materials/README.md)
   - Slides: `Study Materials/Slides/`
   - PDFs: `Study Materials/PDFs/`
-  - Question banks: [[Subjects/Ethics/Study Materials/Question Banks/README|Question Banks]]
-- **Shared notebook:** [[Shared Materials/Handwritten Notebook/README|Handwritten Notebook]]
+  - Question banks: [Question Banks](/Subjects/Ethics/Study Materials/Question Banks/README.md)
+- **Shared notebook:** [Handwritten Notebook](/Shared Materials/Handwritten Notebook/README.md)
 
 ## Progress checklist
 
@@ -90,7 +90,7 @@ Status values: **Provided**, **Missing**, **Scanned-unreadable**, **Duplicate**.
 - Extract syllabus topics only from actual materials.
 - Keep teacher suggestions separate from the official syllabus.
 - Mark missing, unreadable, or scanned materials clearly.
-- Update this README, [[Subjects/Ethics/Syllabus|Syllabus]], [[Subjects/Ethics/Lecture Summary|Lecture Summary]], [[Subjects/Ethics/Important Topics|Important Topics]], [[Subjects/Ethics/Previous Questions|Previous Questions]], and [[Progress Tracker]] when appropriate.
+- Update this README, [Syllabus](/Subjects/Ethics/Syllabus.md), [Lecture Summary](/Subjects/Ethics/Lecture Summary.md), [Important Topics](/Subjects/Ethics/Important Topics.md), [Previous Questions](/Subjects/Ethics/Previous Questions.md), and [Progress Tracker](/Progress Tracker.md) when appropriate.
 
 ## Update log
 

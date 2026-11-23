@@ -10,10 +10,10 @@ last_updated: 2026-11-23
 
 ## Contents
 
-- [[Shared Materials/Handwritten Notebook/README|Handwritten Notebook]] — 41-page scanned notebook covering AI, Ethics, Image Processing, Sociology, Data Mining, and Python lab notes.
-- [[Sugestion.jpeg]] — scanned teacher suggestion/syllabus image (root).
-- [[Midterm_Syllabus_and_Suggestions]] — transcribed teacher suggestion/syllabus (root).
-- [[ClassTestQuestions.pdf]] — scanned class-test questions (root).
+- [Handwritten Notebook](/Shared Materials/Handwritten Notebook/README.md) — 41-page scanned notebook covering AI, Ethics, Image Processing, Sociology, Data Mining, and Python lab notes.
+- [Sugestion.jpeg](/Sugestion.jpeg) — scanned teacher suggestion/syllabus image (root).
+- [Midterm_Syllabus_and_Suggestions](/Midterm_Syllabus_and_Suggestions.md) — transcribed teacher suggestion/syllabus (root).
+- [ClassTestQuestions.pdf](/ClassTestQuestions.pdf) — scanned class-test questions (root).
 
 ## Rules
 

@@ -49,11 +49,11 @@ Page numbers are approximate. The notebook mixes subjects, so check the surround
 
 ## Subject links
 
-- [[Subjects/Artificial Intelligence/Lecture Summary|AI Lecture Summary]]
-- [[Subjects/Data Mining/Lecture Notes/Apriori Supplement|Apriori Supplement]]
-- [[Subjects/Ethics/Lecture Summary|Ethics Lecture Summary]]
-- [[Subjects/Image Processing/Lecture Summary|Image Processing Lecture Summary]]
-- [[Subjects/Sociology/Lecture Summary|Sociology Lecture Summary]]
+- [AI Lecture Summary](/Subjects/Artificial Intelligence/Lecture Summary.md)
+- [Apriori Supplement](/Subjects/Data Mining/Lecture Notes/Apriori Supplement.md)
+- [Ethics Lecture Summary](/Subjects/Ethics/Lecture Summary.md)
+- [Image Processing Lecture Summary](/Subjects/Image Processing/Lecture Summary.md)
+- [Sociology Lecture Summary](/Subjects/Sociology/Lecture Summary.md)
 
 ## Rules
 

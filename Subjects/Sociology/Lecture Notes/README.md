@@ -5,9 +5,9 @@ Store raw lecture notes and imported lecture files here.
 ## Contents
 
 - No Sociology lecture notes or slides are stored here.
-- The standard four-part overview is in [[Subjects/Sociology/Lecture Summary|Lecture Summary]].
+- The standard four-part overview is in [Lecture Summary](/Subjects/Sociology/Lecture Summary.md).
 - The class-test questions are in `../Previous Questions.md`.
-- The cross-subject notebook is at [[Shared Materials/Handwritten Notebook/README|Shared Materials/Handwritten Notebook]].
+- The cross-subject notebook is at [Shared Materials/Handwritten Notebook](/Shared Materials/Handwritten Notebook/README.md).
 
 ## Naming
 
@@ -19,6 +19,6 @@ Store raw lecture notes and imported lecture files here.
 
 - Preserve original files.
 - Do not overwrite existing notes.
-- Link each note from [[Subjects/Sociology/Lecture Summary|Lecture Summary]].
-- Record imported files in the subject [[Subjects/Sociology/README|README]] inventory.
+- Link each note from [Lecture Summary](/Subjects/Sociology/Lecture Summary.md).
+- Record imported files in the subject [README](/Subjects/Sociology/README.md) inventory.
 - Mark the summary as a standard overview until actual slides are provided.

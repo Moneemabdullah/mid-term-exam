@@ -38,6 +38,6 @@ These are topics, not transcribed questions. Use them to build practice problems
 
 ## Related notes
 
-- [[Subjects/Data Mining/Lecture Notes/Apriori Supplement|Apriori Supplement]]
-- [[Subjects/Data Mining/Lecture Summary|Lecture Summary]]
-- [[Subjects/Data Mining/Important Topics|Important Topics]]
+- [Apriori Supplement](/Subjects/Data Mining/Lecture Notes/Apriori Supplement.md)
+- [Lecture Summary](/Subjects/Data Mining/Lecture Summary.md)
+- [Important Topics](/Subjects/Data Mining/Important Topics.md)

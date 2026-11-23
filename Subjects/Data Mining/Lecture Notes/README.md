@@ -11,7 +11,7 @@ Store raw lecture notes and imported lecture files here.
 - `Lecture 5.1.pdf` — alternate version of Lecture 5.
 - `Lecture 9.pdf` — wavelets, normalization, attribute subset selection.
 - `Apriori Supplement.md` — supplementary Apriori note.
-- Apriori source: [[Shared Materials/Handwritten Notebook/README|Handwritten Notebook]] pp. 24–25, 38–41.
+- Apriori source: [Handwritten Notebook](/Shared Materials/Handwritten Notebook/README.md) pp. 24–25, 38–41.
 
 ## Missing
 
@@ -27,5 +27,5 @@ Store raw lecture notes and imported lecture files here.
 
 - Preserve original files.
 - Do not overwrite existing notes.
-- Link each note from [[Subjects/Data Mining/Lecture Summary|Lecture Summary]].
-- Record imported files in the subject [[Subjects/Data Mining/README|README]] inventory.
+- Link each note from [Lecture Summary](/Subjects/Data Mining/Lecture Summary.md).
+- Record imported files in the subject [README](/Subjects/Data Mining/README.md) inventory.

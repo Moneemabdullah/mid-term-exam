@@ -19,33 +19,33 @@ last_updated: 2026-11-23
 > **Class-test questions and summaries added.** Only the class-test paper and scanned notebook are available; no lecture slides were provided.
 
 > [!tip] Start here — subject hub
-> 1. [[Subjects/Sociology/Syllabus|Syllabus]] + [[Subjects/Sociology/Teacher Suggestions|Teacher Suggestions]] — scope.
-> 2. [[Subjects/Sociology/Lecture Summary|Lecture Summary]] + [[Subjects/Sociology/Important Topics|Important Topics]] — first pass.
-> 3. [[Subjects/Sociology/Previous Questions|Previous Questions]] — closed-book practice.
-> 4. [[Subjects/Sociology/Weak Topics|Weak Topics]] — repair errors.
-> 5. [[Subjects/Sociology/Revision/Revision 1|Revision 1]] → [[Subjects/Sociology/Revision/Revision 2|Revision 2]] → [[Subjects/Sociology/Revision/Exam Day|Exam Day]].
-> 6. [[Subjects/Sociology/Study Materials/README|Study Materials]] + [[Subjects/Sociology/Lecture Notes/README|Lecture Notes]] + [[Subjects/Sociology/Resources|Resources]] — sources and general links.
-> - How to study: [[Learning Workflow]] · What to study today: [[Daily Study Lineup]]
+> 1. [Syllabus](/Subjects/Sociology/Syllabus.md) + [Teacher Suggestions](/Subjects/Sociology/Teacher Suggestions.md) — scope.
+> 2. [Lecture Summary](/Subjects/Sociology/Lecture Summary.md) + [Important Topics](/Subjects/Sociology/Important Topics.md) — first pass.
+> 3. [Previous Questions](/Subjects/Sociology/Previous Questions.md) — closed-book practice.
+> 4. [Weak Topics](/Subjects/Sociology/Weak Topics.md) — repair errors.
+> 5. [Revision 1](/Subjects/Sociology/Revision/Revision 1.md) → [Revision 2](/Subjects/Sociology/Revision/Revision 2.md) → [Exam Day](/Subjects/Sociology/Revision/Exam Day.md).
+> 6. [Study Materials](/Subjects/Sociology/Study Materials/README.md) + [Lecture Notes](/Subjects/Sociology/Lecture Notes/README.md) + [Resources](/Subjects/Sociology/Resources.md) — sources and general links.
+> - How to study: [Learning Workflow](/Learning Workflow.md) · What to study today: [Daily Study Lineup](/Daily Study Lineup.md)
 
 ## Quick links
 
-- [[Subjects/Sociology/Syllabus|Syllabus]]
-- [[Subjects/Sociology/Lecture Summary|Lecture Summary]]
-- [[Subjects/Sociology/Important Topics|Important Topics]]
-- [[Subjects/Sociology/Previous Questions|Previous Questions]]
-- [[Subjects/Sociology/Teacher Suggestions|Teacher Suggestions]]
-- [[Subjects/Sociology/Weak Topics|Weak Topics]]
-- [[Subjects/Sociology/Resources|Resources]]
-- [[Subjects/Sociology/Revision/Revision 1|Revision 1]]
-- [[Subjects/Sociology/Revision/Revision 2|Revision 2]]
-- [[Subjects/Sociology/Revision/Exam Day|Exam Day]]
+- [Syllabus](/Subjects/Sociology/Syllabus.md)
+- [Lecture Summary](/Subjects/Sociology/Lecture Summary.md)
+- [Important Topics](/Subjects/Sociology/Important Topics.md)
+- [Previous Questions](/Subjects/Sociology/Previous Questions.md)
+- [Teacher Suggestions](/Subjects/Sociology/Teacher Suggestions.md)
+- [Weak Topics](/Subjects/Sociology/Weak Topics.md)
+- [Resources](/Subjects/Sociology/Resources.md)
+- [Revision 1](/Subjects/Sociology/Revision/Revision 1.md)
+- [Revision 2](/Subjects/Sociology/Revision/Revision 2.md)
+- [Exam Day](/Subjects/Sociology/Revision/Exam Day.md)
 
 ## Folders
 
-- **Lecture notes:** [[Subjects/Sociology/Lecture Notes/README|Lecture Notes]]
-- **Study materials:** [[Subjects/Sociology/Study Materials/README|Study Materials]]
-  - Question banks: [[Subjects/Sociology/Study Materials/Question Banks/README|Question Banks]]
-- **Shared notebook:** [[Shared Materials/Handwritten Notebook/README|Handwritten Notebook]]
+- **Lecture notes:** [Lecture Notes](/Subjects/Sociology/Lecture Notes/README.md)
+- **Study materials:** [Study Materials](/Subjects/Sociology/Study Materials/README.md)
+  - Question banks: [Question Banks](/Subjects/Sociology/Study Materials/Question Banks/README.md)
+- **Shared notebook:** [Handwritten Notebook](/Shared Materials/Handwritten Notebook/README.md)
 
 ## Progress checklist
 
@@ -88,7 +88,7 @@ Status values: **Provided**, **Missing**, **Scanned-unreadable**, **Duplicate**.
 - Extract syllabus topics only from actual materials.
 - Keep teacher suggestions separate from the official syllabus.
 - Mark missing, unreadable, or scanned materials clearly.
-- Update this README, [[Subjects/Sociology/Syllabus|Syllabus]], [[Subjects/Sociology/Lecture Summary|Lecture Summary]], [[Subjects/Sociology/Important Topics|Important Topics]], [[Subjects/Sociology/Previous Questions|Previous Questions]], and [[Progress Tracker]] when appropriate.
+- Update this README, [Syllabus](/Subjects/Sociology/Syllabus.md), [Lecture Summary](/Subjects/Sociology/Lecture Summary.md), [Important Topics](/Subjects/Sociology/Important Topics.md), [Previous Questions](/Subjects/Sociology/Previous Questions.md), and [Progress Tracker](/Progress Tracker.md) when appropriate.
 
 ## Update log
 

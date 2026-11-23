@@ -36,5 +36,5 @@ last_updated: 2026-11-21
 ## After the exam
 
 - [ ] Record difficult questions.
-- [ ] Update [[Subjects/Image Processing/Weak Topics|Weak Topics]].
-- [ ] Update [[Progress Tracker]].
+- [ ] Update [Weak Topics](/Subjects/Image Processing/Weak Topics.md).
+- [ ] Update [Progress Tracker](/Progress Tracker.md).

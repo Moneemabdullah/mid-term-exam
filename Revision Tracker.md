@@ -12,11 +12,11 @@ last_updated: 2026-11-21
 
 | Subject | Topics tracked | R1 done | R2 done | Average confidence |
 |---|---|---|---|---|
-| [[Subjects/Artificial Intelligence/README\|Artificial Intelligence]] | 0 | 0 | 0 | — |
-| [[Subjects/Data Mining/README\|Data Mining]] | 0 | 0 | 0 | — |
-| [[Subjects/Ethics/README\|Ethics]] | 0 | 0 | 0 | — |
-| [[Subjects/Image Processing/README\|Image Processing]] | 0 | 0 | 0 | — |
-| [[Subjects/Sociology/README\|Sociology]] | 0 | 0 | 0 | — |
+| [Artificial Intelligence](/Subjects/Artificial Intelligence/README.md) | 0 | 0 | 0 | — |
+| [Data Mining](/Subjects/Data Mining/README.md) | 0 | 0 | 0 | — |
+| [Ethics](/Subjects/Ethics/README.md) | 0 | 0 | 0 | — |
+| [Image Processing](/Subjects/Image Processing/README.md) | 0 | 0 | 0 | — |
+| [Sociology](/Subjects/Sociology/README.md) | 0 | 0 | 0 | — |
 
 ## Artificial Intelligence
 

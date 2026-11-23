@@ -147,7 +147,7 @@ last_updated: 2026-11-23
 - **Confidence:** how often the consequent appears when the antecedent appears.
 - **Lift:** whether the rule is better than random chance.
 - **Apriori principle:** if an itemset is frequent, all its subsets are frequent; if an itemset is infrequent, all its supersets are infrequent.
-- Full formulas and a worked example are in [[Subjects/Data Mining/Lecture Notes/Apriori Supplement|Apriori Supplement]].
+- Full formulas and a worked example are in [Apriori Supplement](/Subjects/Data Mining/Lecture Notes/Apriori Supplement.md).
 
 ## Quick formula sheet
 

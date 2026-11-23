@@ -24,8 +24,8 @@ last_updated: 2026-11-23
 
 - Do not treat a suggestion as syllabus content unless it is confirmed.
 - Mark unverified suggestions clearly.
-- Link each suggestion to the relevant topic in [[Subjects/Image Processing/Important Topics|Important Topics]].
-- Update [[Subjects/Image Processing/Weak Topics|Weak Topics]] if a suggestion reveals a gap.
+- Link each suggestion to the relevant topic in [Important Topics](/Subjects/Image Processing/Important Topics.md).
+- Update [Weak Topics](/Subjects/Image Processing/Weak Topics.md) if a suggestion reveals a gap.
 
 ## Follow-up
 

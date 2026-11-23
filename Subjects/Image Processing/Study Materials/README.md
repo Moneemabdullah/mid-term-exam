@@ -20,7 +20,7 @@
 
 ### Shared notebook
 
-- [[Shared Materials/Handwritten Notebook/README|Handwritten Notebook]] — IP pages 5–6, 18, 29–30, 37–38.
+- [Handwritten Notebook](/Shared Materials/Handwritten Notebook/README.md) — IP pages 5–6, 18, 29–30, 37–38.
 
 ## Subfolders
 
@@ -34,7 +34,7 @@
 - Preserve original files.
 - Do not overwrite; add a version suffix if needed.
 - Check for duplicates before adding.
-- Record every file in the subject [[Subjects/Image Processing/README|README]] inventory.
+- Record every file in the subject [README](/Subjects/Image Processing/README.md) inventory.
 - Mark scanned or unreadable files clearly.
 - Extract syllabus topics only from actual materials.
 - Keep teacher suggestions separate from the syllabus.

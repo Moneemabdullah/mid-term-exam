@@ -19,35 +19,35 @@ last_updated: 2026-11-23
 > **Materials collected; summaries and class-test answers added.** Study and revision are not complete.
 
 > [!tip] Start here — subject hub
-> 1. [[Subjects/Artificial Intelligence/Syllabus|Syllabus]] + [[Subjects/Artificial Intelligence/Teacher Suggestions|Teacher Suggestions]] — scope.
-> 2. [[Subjects/Artificial Intelligence/Lecture Summary|Lecture Summary]] + [[Subjects/Artificial Intelligence/Important Topics|Important Topics]] — first pass.
-> 3. [[Subjects/Artificial Intelligence/Previous Questions|Previous Questions]] — closed-book practice.
-> 4. [[Subjects/Artificial Intelligence/Weak Topics|Weak Topics]] — repair errors.
-> 5. [[Subjects/Artificial Intelligence/Revision/Revision 1|Revision 1]] → [[Subjects/Artificial Intelligence/Revision/Revision 2|Revision 2]] → [[Subjects/Artificial Intelligence/Revision/Exam Day|Exam Day]].
-> 6. [[Subjects/Artificial Intelligence/Study Materials/README|Study Materials]] + [[Subjects/Artificial Intelligence/Lecture Notes/README|Lecture Notes]] + [[Subjects/Artificial Intelligence/Resources|Resources]] — sources and general links.
-> - How to study: [[Learning Workflow]] · What to study today: [[Daily Study Lineup]]
+> 1. [Syllabus](/Subjects/Artificial Intelligence/Syllabus.md) + [Teacher Suggestions](/Subjects/Artificial Intelligence/Teacher Suggestions.md) — scope.
+> 2. [Lecture Summary](/Subjects/Artificial Intelligence/Lecture Summary.md) + [Important Topics](/Subjects/Artificial Intelligence/Important Topics.md) — first pass.
+> 3. [Previous Questions](/Subjects/Artificial Intelligence/Previous Questions.md) — closed-book practice.
+> 4. [Weak Topics](/Subjects/Artificial Intelligence/Weak Topics.md) — repair errors.
+> 5. [Revision 1](/Subjects/Artificial Intelligence/Revision/Revision 1.md) → [Revision 2](/Subjects/Artificial Intelligence/Revision/Revision 2.md) → [Exam Day](/Subjects/Artificial Intelligence/Revision/Exam Day.md).
+> 6. [Study Materials](/Subjects/Artificial Intelligence/Study Materials/README.md) + [Lecture Notes](/Subjects/Artificial Intelligence/Lecture Notes/README.md) + [Resources](/Subjects/Artificial Intelligence/Resources.md) — sources and general links.
+> - How to study: [Learning Workflow](/Learning Workflow.md) · What to study today: [Daily Study Lineup](/Daily Study Lineup.md)
 
 ## Quick links
 
-- [[Subjects/Artificial Intelligence/Syllabus|Syllabus]]
-- [[Subjects/Artificial Intelligence/Lecture Summary|Lecture Summary]]
-- [[Subjects/Artificial Intelligence/Important Topics|Important Topics]]
-- [[Subjects/Artificial Intelligence/Previous Questions|Previous Questions]]
-- [[Subjects/Artificial Intelligence/Teacher Suggestions|Teacher Suggestions]]
-- [[Subjects/Artificial Intelligence/Weak Topics|Weak Topics]]
-- [[Subjects/Artificial Intelligence/Resources|Resources]]
-- [[Subjects/Artificial Intelligence/Revision/Revision 1|Revision 1]]
-- [[Subjects/Artificial Intelligence/Revision/Revision 2|Revision 2]]
-- [[Subjects/Artificial Intelligence/Revision/Exam Day|Exam Day]]
+- [Syllabus](/Subjects/Artificial Intelligence/Syllabus.md)
+- [Lecture Summary](/Subjects/Artificial Intelligence/Lecture Summary.md)
+- [Important Topics](/Subjects/Artificial Intelligence/Important Topics.md)
+- [Previous Questions](/Subjects/Artificial Intelligence/Previous Questions.md)
+- [Teacher Suggestions](/Subjects/Artificial Intelligence/Teacher Suggestions.md)
+- [Weak Topics](/Subjects/Artificial Intelligence/Weak Topics.md)
+- [Resources](/Subjects/Artificial Intelligence/Resources.md)
+- [Revision 1](/Subjects/Artificial Intelligence/Revision/Revision 1.md)
+- [Revision 2](/Subjects/Artificial Intelligence/Revision/Revision 2.md)
+- [Exam Day](/Subjects/Artificial Intelligence/Revision/Exam Day.md)
 
 ## Folders
 
-- **Lecture notes:** [[Subjects/Artificial Intelligence/Lecture Notes/README|Lecture Notes]]
+- **Lecture notes:** [Lecture Notes](/Subjects/Artificial Intelligence/Lecture Notes/README.md)
   - Converted notes: `Lecture Notes/Converted/`
-- **Study materials:** [[Subjects/Artificial Intelligence/Study Materials/README|Study Materials]]
+- **Study materials:** [Study Materials](/Subjects/Artificial Intelligence/Study Materials/README.md)
   - PDFs: `Study Materials/PDFs/`
-  - Question banks: [[Subjects/Artificial Intelligence/Study Materials/Question Banks/README|Question Banks]]
-- **Shared notebook:** [[Shared Materials/Handwritten Notebook/README|Handwritten Notebook]]
+  - Question banks: [Question Banks](/Subjects/Artificial Intelligence/Study Materials/Question Banks/README.md)
+- **Shared notebook:** [Handwritten Notebook](/Shared Materials/Handwritten Notebook/README.md)
 
 ## Progress checklist
 
@@ -93,7 +93,7 @@ Status values: **Provided**, **Missing**, **Scanned-unreadable**, **Duplicate**.
 - Extract syllabus topics only from actual materials.
 - Keep teacher suggestions separate from the official syllabus.
 - Mark missing, unreadable, or scanned materials clearly.
-- Update this README, [[Subjects/Artificial Intelligence/Syllabus|Syllabus]], [[Subjects/Artificial Intelligence/Lecture Summary|Lecture Summary]], [[Subjects/Artificial Intelligence/Important Topics|Important Topics]], [[Subjects/Artificial Intelligence/Previous Questions|Previous Questions]], and [[Progress Tracker]] when appropriate.
+- Update this README, [Syllabus](/Subjects/Artificial Intelligence/Syllabus.md), [Lecture Summary](/Subjects/Artificial Intelligence/Lecture Summary.md), [Important Topics](/Subjects/Artificial Intelligence/Important Topics.md), [Previous Questions](/Subjects/Artificial Intelligence/Previous Questions.md), and [Progress Tracker](/Progress Tracker.md) when appropriate.
 
 ## Update log
 

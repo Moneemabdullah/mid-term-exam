@@ -26,8 +26,8 @@ last_updated: 2026-11-23
 
 - Do not treat a suggestion as syllabus content unless it is confirmed.
 - Mark unverified suggestions clearly.
-- Link each suggestion to the relevant topic in [[Subjects/Sociology/Important Topics|Important Topics]].
-- Update [[Subjects/Sociology/Weak Topics|Weak Topics]] if a suggestion reveals a gap.
+- Link each suggestion to the relevant topic in [Important Topics](/Subjects/Sociology/Important Topics.md).
+- Update [Weak Topics](/Subjects/Sociology/Weak Topics.md) if a suggestion reveals a gap.
 
 ## Follow-up
 

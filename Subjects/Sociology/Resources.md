@@ -7,7 +7,7 @@ last_updated: 2026-11-23
 # Sociology — Resources
 
 > [!info] Topic-specific videos
-> Topic-specific YouTube links are embedded in [[Subjects/Sociology/Lecture Summary|Lecture Summary]]. This page keeps only general subject-level resources.
+> Topic-specific YouTube links are embedded in [Lecture Summary](/Subjects/Sociology/Lecture Summary.md). This page keeps only general subject-level resources.
 
 ## General subject-level starting points
 
