@@ -25,36 +25,51 @@ last_updated: 2026-11-23
 
 **Answer.**
 
-The **branching factor** `b` is the maximum number of successors generated from a node. It determines how quickly the search tree grows. If the solution is at depth `d`, a complete search may generate roughly
+**Marking scheme:** Definition of branching factor (1 mark) + complexity formula (1 mark) + strategy table / comparison (2 marks) + example (1 mark).
+
+**Definition.** The **branching factor** `b` is the maximum number of successor nodes generated from a single state. It measures how many actions are available at a state.
+
+**Formula.** If the shallowest solution is at depth `d`, a complete tree search may generate roughly:
 
 \[
 1 + b + b^2 + \cdots + b^d = O(b^d)
 \]
 
-nodes. Therefore, time and space complexity are **exponential in `d`** and grow very quickly as `b` increases.
+nodes. Hence time and space complexity are **exponential in `d`** and grow very quickly as `b` increases.
+
+**Effect on common strategies:**
 
 | Strategy | Time | Space | Effect of larger `b` |
 |---|---|---|---|
 | BFS | `O(b^d)` | `O(b^d)` | More nodes per level; memory grows fastest |
-| DFS | `O(b^m)` | `O(bm)` | More branches to explore; memory grows linearly with depth and `b` |
-| UCS | `O(b^d)` worst case | `O(b^d)` | More frontier nodes with distinct costs |
-| A* | `O(b^d)` worst case | `O(b^d)` | A good heuristic reduces the effective branching factor |
+| DFS | `O(b^m)` | `O(bm)` | More branches per node; memory grows with depth × `b` |
+| UCS | `O(b^d)` worst case | `O(b^d)` | More frontier nodes with distinct path costs |
+| A* | `O(b^d)` worst case | `O(b^d)` | A good heuristic reduces the *effective* branching factor `b*` |
 
-For example, with `b = 2` and `d = 5`, the tree has about `2^5 = 32` leaves; with `b = 10`, it has `10^5 = 100,000` leaves. This is why uninformed search becomes impractical in large state spaces.
+**Example.** With `b = 2` and `d = 5`, leaves ≈ `2^5 = 32`. With `b = 10` and `d = 5`, leaves ≈ `10^5 = 100,000`. This is why uninformed search becomes impractical in large state spaces.
 
-**Exam point:** `b` affects both time and space; the effect is exponential. A heuristic does not change the true branching factor, but it can reduce the number of nodes actually expanded.
+**Exam point.** `b` affects both time and space; the effect is exponential. A heuristic does not change the true `b`, but it can reduce the number of nodes actually expanded (effective branching factor `b*`). Always define `b`, `d`, and `m` in your answer.
+
+---
 
 > [!question] Q2. Describe how repeated states can affect the efficiency of a search algorithm and how visited-node checking helps overcome this problem. [5]
 
 **Answer.**
 
-A **repeated state** is a state reached by more than one path. Repeated states arise from cycles, reversible actions, or different action orders that lead to the same state (transpositions). In a **tree search**, the algorithm may expand the same state many times, causing duplicated work and exponential blow-up. In an infinite graph, a cycle can make DFS loop forever.
+**Marking scheme:** Definition of repeated state (1 mark) + causes (1 mark) + problem/inefficiency (1 mark) + visited-node checking algorithm (1 mark) + benefit/trade-off (1 mark).
 
-**Visited-node checking** (also called a closed list or explored set) stores states that have already been expanded. Before adding or expanding a successor, the algorithm checks whether the state is already visited. If it is, the duplicate is discarded.
+**Definition.** A **repeated state** is a state reached by more than one path. Repeated states arise from:
+- **Cycles:** going A → B → A.
+- **Reversible actions:** move north then move south.
+- **Transpositions:** different action orders reaching the same state (e.g., A→B→C and A→C→B).
+
+**Problem.** In **tree search**, the algorithm may expand the same state many times, causing duplicated work and exponential blow-up. In an infinite graph, a cycle can make DFS loop forever without reaching the goal.
+
+**Visited-node checking (closed/explored set):** Store every state that has already been expanded. Before adding or expanding a successor, check whether its state is in the visited set; if yes, discard the duplicate.
 
 ```text
 frontier = {start}
-visited = {}
+visited  = {}
 while frontier is not empty:
     node = remove(frontier)
     if node is goal: return path
@@ -65,21 +80,29 @@ while frontier is not empty:
             frontier.add(child)
 ```
 
-**Benefits:** avoids duplicate expansion, prevents infinite loops in cyclic graphs, and can greatly improve efficiency.
+**Benefits:** avoids duplicate expansion, prevents infinite loops in cyclic graphs, greatly improves efficiency.
 
-**Trade-off:** the visited set uses extra memory. For optimal search with unequal step costs, a simple visited set may be unsafe; the algorithm may need to reopen a state if a cheaper path is found later (as in UCS/A* with a consistent heuristic, reopening is not needed).
+**Trade-off:** the visited set uses extra memory. For optimal search with unequal step costs, a simple visited set may be unsafe; the algorithm may need to reopen a state if a cheaper path is found later (UCS/A* with a consistent heuristic avoids reopening).
+
+**Lecture link:** State Space Search — problem formulation, completeness, optimality, time/space complexity.
+
+---
 
 ## Set A
 
 > [!question] Q1. Explain how the branching factor influences the time and space complexity of a search algorithm. [5]
 
-Same question as Set B Q1. Use the answer above.
+**Answer.** Same as Set B Q1. Use the full answer above (definition, formula, table, example, exam point).
+
+---
 
 > [!question] Q2. Describe how Depth-First Search (DFS) explores a search tree and why it may get stuck in an infinite path. [5]
 
 **Answer.**
 
-DFS uses a **stack** (LIFO). It starts at the root, expands one child, then goes as deep as possible along that branch before backtracking. When a node has no unvisited children, DFS backtracks to the most recent node with an unexplored child.
+**Marking scheme:** Stack/LIFO idea (1 mark) + expansion/backtracking steps (1 mark) + why infinite path / not complete (1 mark) + not optimal (1 mark) + fixes (1 mark).
+
+**How DFS explores.** DFS uses a **stack** (LIFO). It starts at the root, expands one child, then goes as deep as possible along that branch before backtracking. When a node has no unvisited children, DFS backtracks to the most recent node with an unexplored child.
 
 ```text
 stack = [start]
@@ -92,21 +115,18 @@ while stack is not empty:
     push unvisited children onto stack
 ```
 
-**Why it can get stuck:** if the state space has an infinite branch or a cycle, DFS may follow that branch forever without reaching the goal. DFS has no depth limit and no guarantee that the goal is on the first branch it explores. It is therefore **not complete** in infinite spaces and is **not optimal** even in finite spaces.
+**Why it gets stuck.** If the state space has an infinite branch or a cycle, DFS may follow that branch forever without reaching the goal. DFS has no depth limit and no guarantee that the goal is on the first branch explored. It is **not complete** in infinite spaces and **not optimal** even in finite spaces (it may find a deep costly goal before a shallow cheap one).
 
-**Fixes:** use a depth limit (DLS), check visited states, or use iterative deepening (IDDFS) to combine DFS's low memory with BFS's completeness.
+**Fixes:** use a depth limit (DLS), check visited states, or use iterative deepening (IDDFS) to combine DFS’s low memory with BFS’s completeness.
 
-## Exam tips
+**Lecture link:** Uninformed search — BFS/DFS/UCS/DLS/IDDFS/BDS; completeness, optimality, time/space.
 
-- For complexity questions, always define `b`, `d`, and `m`.
-- For repeated states, mention both cycles and transpositions.
-- For DFS, mention the stack, backtracking, infinite depth, and the fixes.
-- For A*, remember `f(n) = g(n) + h(n)` and `h(n) <= h*(n)` for admissibility.
+---
 
 ## Previous-semester questions (scanned papers)
 
 > [!info] Source
-> Scanned CSE 4-2 previous Mid Term/Final papers from `../Previous QW/` were OCR’d. Only Artificial Intelligence (CSE 421) questions are included below. Some tables/diagrams could not be read clearly by OCR; answers use standard definitions and the course summary.
+> Scanned CSE 4-2 previous Mid Term/Final papers from `../Previous QW/` were OCR’d. Only Artificial Intelligence (CSE 421) questions are included below.
 
 ### AI — Final Fall 2025, CSE 421 (page 1)
 
@@ -117,9 +137,20 @@ while stack is not empty:
 **Q1(c).** Apply minimax to the given tree and find the values for A, B, C, and D nodes. [10]
 
 **Answer.**
-(a) Hill climbing repeatedly moves to the best neighbor by heuristic value. If all neighbors of the current state have equal or lower values, there is no uphill move, so the search stops on a plateau or local maximum even if a better state exists farther away. Example: current h = 10, neighbors h = 9, 10, 10 → no strictly better neighbor, so stop.
-(b) Choose the neighbor with the highest value: **12 (right neighbor)**. Move from 10 to 12; repeat until no neighbor is strictly better.
-(c) Propagate leaf values upward: at a minimizing node take the child minimum; at a maximizing node take the child maximum. The tree image was OCR-garbled, so exact A/B/C/D values cannot be recovered; apply the bottom-up minimax rule to the readable tree.
+
+**Marking:** hill-climbing steps (3) + local maximum/plateau illustration (3) + steepest choice with reasoning (3) + minimax bottom-up rule + example (4).
+
+**(a) Simple hill climbing:** Start from an initial state. Repeatedly generate all neighbors, compute each neighbor’s heuristic `h(n)`, and move to the neighbor with the **highest** `h`. Stop when no neighbor has a strictly higher value than the current state.
+**Failure illustration:** Suppose current state `h = 10`, neighbors have `h = 9, 10, 10`. No neighbor is strictly better (`>10`), so hill climbing stops at this state even though a better state may exist farther away. This is a **local maximum** (all neighbors equal/lower) or a **plateau** (neighbors equal).
+
+**(b)** Choose the neighbor with the highest value: **12 (right neighbor)**. Move from current `10` → `12`. Repeat: at `12`, if no neighbor has `h > 12`, stop at `12` (local maximum). Otherwise keep moving to the highest neighbor.
+
+**(c) Minimax:** Propagate leaf values upward through the tree. At a **maximizing** node, take the **maximum** of child values; at a **minimizing** node, take the **minimum**. The root value is the maximizer’s guaranteed value under optimal play.
+*(Note: The tree image was OCR-garbled, so exact A/B/C/D numeric values could not be read. Apply the bottom-up maximin rule to the readable tree in the exam paper.)*
+
+**Lecture link:** Informed search — hill climbing, local search; adversarial search — minimax.
+
+---
 
 ### AI — Mid Term Fall 2025, CSE 421 (page 3)
 
@@ -130,9 +161,20 @@ while stack is not empty:
 **Q1(c).** A cleaning robot slows down as the floor accumulates more dirt. Determine whether this is due to the agent or the environment. [10]
 
 **Answer.**
-(a) **Model-Based Agent:** keeps an internal model of which doors are open/closed and updates it as observations arrive; chooses actions using the model and goal. Useful when the environment changes between observations. **Learning Agent:** improves its policy from experience (which door actions succeeded or failed); better when door patterns are unknown or change over time.
-(b) The environment is **partially observable and dynamic**. Cloudy weather reduces sensor reliability and conditions change while the drone is operating.
-(c) Primarily the **environment**: accumulated dirt changes floor condition/friction and slows the robot. It is an agent problem only if the robot lacks dirt sensing or a cleaning-mode policy.
+
+**Marking:** agent descriptions (4 each) + environment characteristic identification (4) + justification (3) + agent/environment attribution (3) + example (3).
+
+**(a)**
+- **Model-Based Agent:** Maintains an internal model of the world (e.g., which doors are open/closed). It updates the model from percepts and chooses actions using the model + goal. Best when the environment changes between observations but the agent can sense the current state.
+- **Learning Agent:** Improves its policy from experience (which door actions succeeded/failed). Has a performance element, critic, learning element, and problem generator. Best when door patterns are unknown or change over time; it does not need a perfect model upfront.
+
+**(b)** The environment is **partially observable** (the drone cannot see through clouds / full field at once) and **dynamic** (conditions change while the drone operates). Cloudy weather reduces sensor reliability and changes lighting/visibility during the mission.
+
+**(c)** Primarily the **environment**: accumulated dirt changes floor friction/condition, slowing the robot. It becomes an **agent** problem only if the robot lacks dirt sensing or a cleaning-mode policy (i.e., the agent fails to adapt to the environmental change).
+
+**Lecture link:** Agents and environments — agent structure, types (simple reflex, model-based, goal-based, utility-based, learning); environment properties (observable, deterministic, episodic, static, discrete).
+
+---
 
 ### AI — Mid Term Spring 2026, CSE 421 (page 11)
 
@@ -143,6 +185,29 @@ while stack is not empty:
 **Q1(c) (OR).** A goal-based warehouse robot completes delivery early but skips an item. Examine how goal-based logic caused this error. [10]
 
 **Answer.**
-(a) The vacuum behaves like a **simple reflex/model-based agent without a visited-set**: it reacts to “dirt detected” but does not mark cleaned spots, so it revisits them. Fix: add a cleaned-spots map and make the goal “clean every dirty spot exactly once.”
-(b) **Partially observable** (cannot see all vehicles), **dynamic** (traffic changes continuously), **sequential** (each signal decision affects later states), **multi-agent** (drivers and pedestrians), and **stochastic/continuous** (arrival times are uncertain).
-(c) The goal was formulated as “complete delivery early” without the constraint “deliver every item.” Fix: make the goal conjunctive (deliver all items and minimize time) or add an item-check/pickup step before ending the task.
+
+**Marking:** agent-type diagnosis (4) + missing mechanism + fix (3) + five environment characteristics with classification (5) + goal-formulation flaw + fix (3) + example (3).
+
+**(a)** The vacuum behaves like a **simple reflex or model-based agent without a visited-set**: it reacts to “dirt detected” but does not record which spots have been cleaned, so it revisits them.
+**Fix:** Add a cleaned-spots map (visited-set over locations) and reformulate the goal as “clean every dirty spot exactly once.” This turns it into a goal-based agent with state memory.
+
+**(b)** Environment characteristics:
+1. **Partially observable** — cannot see all vehicles/pedestrians at once.
+2. **Dynamic** — traffic density changes continuously while the light operates.
+3. **Sequential** — each signal decision affects later states (queues build/dissipate over time).
+4. **Multi-agent** — drivers, cyclists, and pedestrians are other agents whose actions affect outcomes.
+5. **Stochastic / continuous** — vehicle arrival times are uncertain and positions are continuous.
+
+**(c)** The goal was formulated only as “complete delivery early,” omitting the constraint “deliver every item.” A goal-based agent pursues the stated goal literally, so finishing early (skipping an item) satisfies the incomplete goal but fails the real task.
+**Fix:** Make the goal conjunctive — “deliver all assigned items AND minimize time” — or add an item-check/pickup precondition before ending the task.
+
+**Lecture link:** Agents and environments — agent types; environment properties; problem formulation (states, initial state, actions, goal test, path cost).
+
+## Exam tips
+
+- For complexity questions, always define `b`, `d`, and `m`.
+- For repeated states, mention both cycles and transpositions.
+- For DFS, mention the stack, backtracking, infinite depth, and the fixes.
+- For hill climbing, draw a small state-value diagram showing local maximum/plateau.
+- For minimax, show bottom-up propagation on a small tree.
+- For agent questions, name the environment properties first, then match agent type.

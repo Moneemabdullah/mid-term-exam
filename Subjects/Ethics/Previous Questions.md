@@ -27,32 +27,46 @@ last_updated: 2026-11-23
 
 **Answer.**
 
-Engineering became a formal profession as technology grew more powerful and its effects on society became larger. The main factors were:
+**Marking scheme:** Each valid factor with brief explanation = 1 mark (5 factors). Definition not strictly required but helps (0.5). Conclusion (0.5).
 
-1. **Industrialization and new technology:** railways, bridges, factories, machines, and infrastructure created risks that individuals could not assess or control.
-2. **Public safety and welfare:** engineering failures could injure or kill many people, so engineers needed a public-facing duty beyond loyalty to an employer.
-3. **Complexity and specialization:** no single engineer could understand every part of a large project; coordination and accountability required shared standards.
-4. **Professional societies and codes:** engineering societies formed to define standards, discipline members, and protect the profession’s reputation.
-5. **Major disasters and public scrutiny:** bridge collapses, boiler explosions, and other failures showed that technical competence alone was not enough.
-6. **Legal and regulatory pressure:** safety laws, liability, and public accountability increased the formal responsibilities of engineers.
-7. **Globalization and emerging technologies:** AI, sustainability, data privacy, and cross-border work created new ethical dilemmas.
+**Introduction.** Engineering ethics became necessary as technology grew powerful enough that engineering decisions began affecting public safety, health, welfare, and the environment on a large scale.
 
-**Conclusion:** formal engineering ethics developed because engineering decisions have large, long-lasting effects on public safety, trust, and the environment.
+**Factors:**
+
+1. **Industrialization and new technology.** Railways, bridges, factories, machines, and large infrastructure created risks that individuals could not assess or control alone.
+2. **Public safety and welfare.** Engineering failures (bridge collapses, boiler explosions) could injure or kill many people, so engineers needed a public-facing duty beyond loyalty to an employer.
+3. **Complexity and specialization.** No single engineer could understand every part of a large project; coordination and accountability required shared standards.
+4. **Professional societies and codes.** Engineering societies formed to define standards, discipline members, and protect the profession’s reputation.
+5. **Major disasters and public scrutiny.** High-profile failures showed that technical competence alone was not enough; ethical competence was also required.
+6. **Legal and regulatory pressure.** Safety laws, liability, and public accountability increased the formal responsibilities of engineers.
+7. **Globalization and emerging technologies.** AI, sustainability, data privacy, and cross-border work created new ethical dilemmas.
+
+*(Any five of the above earn full marks.)*
+
+**Conclusion.** Formal engineering ethics developed because engineering decisions have large, long-lasting effects on public safety, trust, and the environment.
+
+---
 
 > [!question] Q1(b). Differentiate between morals and engineering ethics in terms of their sources, purposes, and applications. [05]
 
 **Answer.**
 
+**Marking scheme:** Table with clear bases (4 marks) + key point/conclusion (1 mark).
+
 | Basis | Morals | Engineering Ethics |
 |---|---|---|
-| **Source** | Personal upbringing, culture, religion, conscience, and custom; not imposed by an external authority | Professional codes, standards, laws, education, and the engineering community |
-| **Purpose** | Guide personal conduct and character: what an individual believes is right or wrong | Guide professional decisions and protect public safety, health, welfare, and trust |
-| **Application** | Private life, personal relationships, everyday choices | Engineering practice, research, design, production, use, and disposal |
+| **Source** | Personal upbringing, culture, religion, conscience, custom; not imposed by an external authority | Professional codes, standards, laws, education, engineering community |
+| **Purpose** | Guide personal conduct and character; what an individual believes is right/wrong | Guide professional decisions; protect public safety, health, welfare, trust |
+| **Application** | Private life, personal relationships, everyday choices | Engineering practice, research, design, production, use, disposal |
 | **Scope** | Individual and context-dependent | Shared professional expectations across a pluralistic society |
-| **Enforcement** | Informal; personal guilt or social disapproval | Formal codes, employers, professional bodies, courts, and licensing |
-| **Focus** | Personal integrity and virtue | Role responsibilities, accountability, and the public interest |
+| **Enforcement** | Informal; personal guilt or social disapproval | Formal codes, employers, professional bodies, courts, licensing |
+| **Focus** | Personal integrity and virtue | Role responsibilities, accountability, public interest |
 
-**Key point:** morals are personal and internal; engineering ethics is professional, public-facing, and justified by the duties of the engineer’s role. Personal morals are important, but they are not enough on their own because professional decisions affect many stakeholders.
+**Key point:** Morals are personal and internal; engineering ethics is professional, public-facing, and justified by the duties of the engineer’s role. Personal morals are important but not sufficient because professional decisions affect many stakeholders.
+
+**Lecture link:** Slide 1 — key definitions, ethics vs morals, why engineering ethics matters.
+
+---
 
 ## CT-1 — Set B
 
@@ -60,32 +74,43 @@ Engineering became a formal profession as technology grew more powerful and its 
 
 **Answer.**
 
-**Integrity** means wholeness and consistency: a person’s values, words, and actions agree. An engineer with integrity is honest, keeps commitments, admits mistakes, and does not change ethical standards to suit convenience or pressure.
+**Marking scheme:** Definition of integrity (1) + why it is a skill (2) + example (2).
 
-It is a **skill of ethical reasoning** because ethical reasoning is not only knowing the right principle; it is applying it consistently under pressure. Integrity helps an engineer to:
+**Definition.** **Integrity** means wholeness and consistency: a person’s values, words, and actions agree. An engineer with integrity is honest, keeps commitments, admits mistakes, and does not change ethical standards to suit convenience or pressure.
 
+**Why it is a skill of ethical reasoning.** Ethical reasoning is not only knowing the right principle; it is applying it consistently under pressure. Integrity helps an engineer to:
 - Recognize when a decision conflicts with professional values.
 - Justify a decision with reasons, not only personal preference.
 - Resist pressure from employers, clients, or colleagues.
 - Maintain trust with the public and the profession.
 - Accept responsibility and correct errors.
 
-**Example:** an engineer who discovers a safety defect and reports it despite cost or delay is exercising integrity. The skill lies in consistent, reasoned action, not just having good intentions.
+**Example.** An engineer who discovers a safety defect and reports it despite cost or delay is exercising integrity. The skill lies in consistent, reasoned action, not just good intentions.
+
+**Lecture link:** Slide 1 — skills for ethical reasoning (integrity, moral reasonableness, respect, tolerance, moral hope).
+
+---
 
 > [!question] Q1(b). Explain why personal morals alone may not be sufficient to address ethical challenges in professional engineering practice. [05]
 
 **Answer.**
 
+**Marking scheme:** Six valid reasons (1 mark each) or fewer with explanation (up to 5) + conclusion (1).
+
 Personal morals are necessary but not sufficient because engineering practice has special features:
 
-1. **Pluralistic society:** engineers work with people who hold different moral, cultural, and religious beliefs. A personal moral code may not be shared by clients, employers, or the public.
-2. **Role responsibilities:** engineers have duties to public safety, employers, clients, colleagues, and the profession. Personal morals may not specify how to balance these duties.
-3. **Technical complexity:** ethical issues are often hidden in design choices, data, and long-term consequences. Personal intuition may not identify the relevant facts.
-4. **Power and pressure:** employers and clients may pressure engineers to cut costs or hide risks. A personal code without professional standards and support can be difficult to apply.
-5. **Accountability:** professional ethics provides codes, standards, and procedures for reporting, whistleblowing, and resolving conflicts of interest.
-6. **Consistency and fairness:** personal morals can be biased or inconsistent; professional ethics requires justification and equal treatment.
+1. **Pluralistic society.** Engineers work with people of different moral, cultural, and religious beliefs; a personal moral code may not be shared by clients, employers, or the public.
+2. **Role responsibilities.** Engineers have duties to public safety, employers, clients, colleagues, and the profession. Personal morals may not specify how to balance these duties.
+3. **Technical complexity.** Ethical issues are often hidden in design choices, data, and long-term consequences; personal intuition may not identify the relevant facts.
+4. **Power and pressure.** Employers and clients may pressure engineers to cut costs or hide risks; a personal code without professional standards is hard to apply.
+5. **Accountability.** Professional ethics provides codes, standards, and procedures for reporting, whistleblowing, and resolving conflicts of interest.
+6. **Consistency and fairness.** Personal morals can be biased or inconsistent; professional ethics requires justification and equal treatment.
 
-**Conclusion:** personal morals provide the foundation, but professional ethics supplies the role-specific duties, standards, and accountability needed for engineering practice.
+**Conclusion.** Personal morals provide the foundation, but professional ethics supplies the role-specific duties, standards, and accountability needed for engineering practice.
+
+**Lecture link:** Slide 1 — ethics vs morals, scope of engineering ethics; Slide 2 — personal vs professional ethics.
+
+---
 
 ## CT-2
 
@@ -93,43 +118,46 @@ Personal morals are necessary but not sufficient because engineering practice ha
 
 **Answer.**
 
-**Organizational ethics** is the set of values, principles, standards, and rules that guide the behavior of an organization and its members in their relationships with employees, customers, stakeholders, and society. It shapes how the organization makes decisions, treats people, and handles conflicts of interest.
+**Marking scheme:** Definition (2) + four values with one-line explanation each (3).
 
-Four ethical values an organization should uphold:
+**Definition.** **Organizational ethics** is the set of values, principles, standards, and rules that guide the behavior of an organization and its members in their relationships with employees, customers, stakeholders, and society. It shapes how the organization makes decisions, treats people, and handles conflicts of interest.
 
-1. **Integrity** — honesty, consistency, and truthfulness in all dealings.
-2. **Fairness** — equal treatment, non-discrimination, and impartial decisions.
+**Four ethical values:**
+
+1. **Integrity** — honesty, consistency, truthfulness in all dealings.
+2. **Fairness** — equal treatment, non-discrimination, impartial decisions.
 3. **Accountability** — taking responsibility for actions, products, and mistakes.
 4. **Respect** — treating employees, customers, and stakeholders with dignity.
 
 Other acceptable values: transparency, safety, sustainability, confidentiality, professionalism.
 
+---
+
 > [!question] Q1(b). Summarize the ethical responsibilities of an organization toward its employees and customers. [05]
 
 **Answer.**
 
-**Toward employees:**
+**Marking scheme:** Employee responsibilities (2.5) + customer responsibilities (2.5). List at least 3–4 per side.
 
-- Provide a **safe and healthy workplace**.
-- Pay **fair wages** and compensate all hours worked.
-- Ensure **equal opportunity** and non-discrimination.
+**Toward employees:**
+- Provide a safe and healthy workplace.
+- Pay fair wages and compensate all hours worked.
+- Ensure equal opportunity and non-discrimination.
 - Respect privacy and confidentiality.
-- Provide clear communication, feedback, and reasonable accommodation.
-- Offer training and professional development.
-- Follow employment laws and avoid harassment, nepotism, and unfair pressure.
-- Protect employees who report wrongdoing.
+- Follow employment laws; avoid harassment, nepotism, unfair pressure.
+- Protect employees who report wrongdoing (whistleblower protection).
 
 **Toward customers:**
-
-- Protect **safety, health, and quality** of products and services.
-- Give **honest and accurate information** about products, risks, and limitations.
-- Charge fair prices and avoid deceptive practices.
+- Protect safety, health, and quality of products and services.
+- Give honest and accurate information about products, risks, limitations.
+- Charge fair prices; avoid deceptive practices.
 - Protect customer privacy and data.
 - Handle complaints and defects responsibly.
-- Provide accessible and reliable support.
 - Avoid conflicts of interest and misleading advertising.
 
-**Conclusion:** the organization must balance profit with its duty to protect people, maintain trust, and act lawfully and fairly.
+**Conclusion.** The organization must balance profit with its duty to protect people, maintain trust, and act lawfully and fairly.
+
+**Lecture link:** Slide 2 — workplace ethics, employee rights, employer–employee obligations, obligations to clients.
 
 ## Exam tips
 
@@ -137,6 +165,8 @@ Other acceptable values: transparency, safety, sustainability, confidentiality, 
 - For “why” questions, give reasons and examples.
 - For responsibilities, separate employees and customers.
 - Link answers to public safety, trust, and professional accountability.
+
+---
 
 ## Previous-semester questions (scanned papers)
 
@@ -150,15 +180,37 @@ Other acceptable values: transparency, safety, sustainability, confidentiality, 
 **Q1(b).** Distinguish between personal ethics and professional ethics in engineering. [10]
 
 **Answer.**
-(a) Engineering ethics is the study of morally desirable decisions, policies, and values in engineering practice and research. It matters because engineering decisions affect public safety, health, welfare, trust, and the environment; small mistakes can have large, long-term consequences.
-(b) Personal ethics are personal and internal (upbringing, culture, conscience). Professional ethics are role-based, public-facing, code-based, and concerned with duties to clients, employers, colleagues, and the public.
+
+**Marking scheme (Q1a):** definition (3) + why it matters with 3–4 reasons (6) + conclusion (1).
+**Marking scheme (Q1b):** table with bases (6) + conclusion (2) or six distinct differences (8) + example (2).
+
+**(a)** Engineering ethics is the study of morally desirable decisions, policies, and values in engineering practice and research. It matters because engineering decisions affect public safety, health, welfare, trust, and the environment; small mistakes can have large, long-term consequences (e.g., bridge collapse, defective medical device).
+
+**(b)** Personal ethics are personal and internal (upbringing, culture, conscience). Professional ethics are role-based, public-facing, code-based, and concerned with duties to clients, employers, colleagues, and the public.
+
+---
 
 ### Ethics — Final Spring 2024, CSE 417 Engineering Ethics and Management (page 5)
 
 **Q1(a).** Case study: AI-generated George Carlin comedy special uploaded without family permission. [20]
 
 **Answer.**
-Key ethical issues: consent/personality rights (family and estate not asked), possible deception of audiences, attribution and respect for a deceased artist, and harm to reputation/legacy. Responsibility lies with the developers/producers and the distributing platform: obtain permission, label AI-generated content clearly, and respect the family’s wishes. Principles: respect for persons, honesty, avoiding deception, and accountability.
+
+**Marking scheme:** ethical issues (8) + responsibility (6) + principles applied (6).
+
+**Key ethical issues:**
+- **Consent / personality rights:** The family and estate were not asked; using Carlin’s voice and likeness without permission exploits a deceased artist.
+- **Deception:** Audiences may believe they are hearing new Carlin material, which is misleading.
+- **Attribution and respect:** The work misrepresents the artist’s legacy and may attribute views to Carlin he never held.
+- **Harm to reputation/legacy:** AI-generated content can distort public perception of the artist.
+
+**Responsibility.** Developers/producers and the distributing platform must obtain permission, label AI-generated content clearly, and respect the family’s wishes.
+
+**Principles applied:** Respect for persons, honesty, avoiding deception, accountability, and non-maleficence (do no harm).
+
+**Lecture link:** Slide 2 — workplace/professional ethics; Slide 3 — NSPE canons (faithful agent, avoid deception, honorable conduct).
+
+---
 
 ### Ethics — Final Spring 2025, CSE 417 Engineering Ethics and Management (page 9)
 
@@ -167,7 +219,19 @@ Key ethical issues: consent/personality rights (family and estate not asked), po
 **Sub-question.** Who has rights in this case? What rights are those? Who has responsibility to protect the rights? [10]
 
 **Answer.**
-Rights: Rahim has the right to fair accusation and due process; Anika has rights to privacy, fair treatment, and access to computing resources for education; the computing center has the right to protect system integrity. Responsibility lies with the director and administrators: investigate fairly, avoid punishing without evidence, protect privacy, and provide appeal/due process.
+
+**Marking scheme:** rights identification (4) + nature of each right (3) + responsibility assignment (3).
+
+**Rights:**
+- **Rahim:** right to fair accusation and due process; right not to be blamed without evidence.
+- **Anika:** rights to privacy, fair treatment, and access to computing resources for education.
+- **Computing center:** right to protect system integrity and investigate failures.
+
+**Responsibility.** The director and administrators must investigate fairly, avoid punishing without evidence, protect privacy, and provide an appeal/due-process mechanism. Suspending Anika based only on correlation (her programs were running) violates fairness and due process.
+
+**Lecture link:** Slide 2 — employee rights, fairness, non-discrimination, accountability; Slide 3 — NSPE canons (faithful agent, avoid deception, honorable conduct).
+
+---
 
 ### Ethics — Final Spring 2026, GED 423 Engineering Ethics (page 9)
 
@@ -176,15 +240,53 @@ Rights: Rahim has the right to fair accusation and due process; Anika has rights
 **Q2(b).** Apply ethical problem-solving steps to resolve an engineering ethical dilemma. [10]
 
 **Answer.**
-(a) Core aspects: recognize the moral issue, gather facts, identify stakeholders and options, apply ethical principles/codes, evaluate consequences, decide and justify, act, and review. This makes decisions reasoned, consistent, transparent, and accountable rather than intuitive.
-(b) Example: whether to report a safety defect. Steps: define the dilemma, collect facts (standards, risks, costs), identify stakeholders (public, employer, client), apply the public-safety-first code, compare reporting vs. concealing, decide to report through proper channels, document, and follow up.
+
+**Marking scheme (Q2a):** six core aspects (1 each) + explanation of how they support decisions (4).
+**Marking scheme (Q2b):** define dilemma (2) + gather facts (2) + stakeholders (2) + apply code (2) + decide/justify/act (2).
+
+**(a) Core aspects:**
+1. Recognize the moral issue.
+2. Gather relevant facts.
+3. Identify stakeholders and options.
+4. Apply ethical principles/codes.
+5. Evaluate consequences.
+6. Decide, justify, act, and review.
+
+These make decisions reasoned, consistent, transparent, and accountable rather than intuitive.
+
+**(b) Example — whether to report a safety defect:**
+1. Define the dilemma: report the defect (may delay product, cost money) or conceal it (ship on time, risk public harm).
+2. Gather facts: applicable safety standards, probability/severity of harm, cost of fix, contractual obligations.
+3. Identify stakeholders: public users, employer, client, engineering team, regulators.
+4. Apply code: public safety, health, and welfare come first (NSPE Canon 1).
+5. Decide: report through proper channels, document the defect and recommendation.
+6. Act and follow up: ensure the fix is implemented; review outcome.
+
+**Lecture link:** Slide 1 — skills for ethical reasoning; Slide 2 — principles of ethics; Slide 3 — NSPE fundamental canons.
+
+---
 
 ### Ethics — Mid Fall 2024, CSE 417 Engineering Ethics and Management (page 1)
 
 **Q1.** Sophia (data scientist, fitness tech) case: ethical issues, decision about sharing data with an insurer, and justification. [12 + 12 + 6]
 
 **Answer.**
-Key issues: user consent and privacy, purpose limitation (fitness data shared with an insurer), potential harm (denial of coverage/higher premiums), trust, and transparency. Sophia should not share identifiable health data without informed consent and a lawful basis; she should escalate to privacy/legal review and inform users. Justification: respect for persons, non-maleficence, data minimization, and accountability to users and the public.
+
+**Marking scheme:** issues (6) + decision with reasoning (6) + justification with principles (6).
+
+**Key ethical issues:**
+- **Consent and privacy:** users gave fitness data for a fitness app, not for insurance underwriting.
+- **Purpose limitation:** sharing health data with an insurer exceeds the original purpose.
+- **Potential harm:** denial of coverage or higher premiums based on fitness data.
+- **Trust and transparency:** users were not informed their data could be shared with insurers.
+
+**Decision.** Sophia should **not** share identifiable health data with the insurer without informed consent and a lawful basis. She should escalate to privacy/legal review and inform affected users.
+
+**Justification.** Respect for persons, non-maleficence (do no harm), data minimization, accountability to users and the public, and confidentiality.
+
+**Lecture link:** Slide 2 — confidentiality, protection of confidential information; Slide 3 — NSPE canons (faithful agent, avoid deception, honorable conduct).
+
+---
 
 ### Ethics — Mid Spring 2024, CSE 417 Engineering Ethics and Management (page 9)
 
@@ -195,6 +297,24 @@ Key issues: user consent and privacy, purpose limitation (fitness data shared wi
 **Q1(c).** How is technology defined? What are the differences between technological determinism and technological optimism? [10]
 
 **Answer.**
-(a) Ethics: principles for right and wrong conduct. Types: meta-ethics (nature of morality), normative ethics (utilitarianism, deontology, virtue ethics), applied ethics (professional, business, bioethics), and descriptive ethics (study of actual moral beliefs).
-(b) Purpose: recognize moral issues, reason about professional duties, and protect public safety. Responsibilities: public safety first, competence, honesty/integrity, confidentiality, fairness, avoiding conflicts of interest, and accountability.
-(c) Technology: practical application of knowledge, tools, and methods to solve problems. **Technological determinism:** technology largely drives society and history by itself. **Technological optimism:** technology generally brings progress and benefits, though risks should still be managed.
+
+**Marking scheme (Q1a):** definition (2) + four types with one-line explanation each (6).
+**Marking scheme (Q1b):** purpose (4) + eight responsibilities (8).
+**Marking scheme (Q1c):** definition of technology (2) + determinism vs optimism with contrast (4) + balanced view (4).
+
+**(a)** Ethics: principles or values that help determine right and wrong in human behavior.
+**Types:**
+1. **Meta-ethics:** nature and meaning of moral terms/judgments.
+2. **Normative ethics:** standards for right/wrong action (utilitarianism, deontology, virtue ethics).
+3. **Applied ethics:** ethics in specific domains (professional, business, bioethics).
+4. **Descriptive ethics:** study of actual moral beliefs and practices of people/societies.
+
+**(b) Purpose:** recognize moral issues, reason about professional duties, and protect public safety.
+**Responsibilities:** public safety first; competence in one’s field; honesty and integrity; fairness and non-discrimination; avoidance of conflicts of interest; confidentiality; credit and recognition; environmental responsibility; professional development of others.
+
+**(c) Technology:** practical application of knowledge, tools, and methods to solve practical problems.
+- **Technological determinism:** technology largely drives society and history by itself, largely independent of human choice.
+- **Technological optimism:** technology generally brings progress and benefits, though risks should still be managed.
+**Balanced view:** technology is a powerful driver, but social values, policy, and ethical choices shape how it is developed and used.
+
+**Lecture link:** Slide 1 — key definitions, ethics vs morals, why engineering ethics matters, scope; Slide 2 — principles of ethics.

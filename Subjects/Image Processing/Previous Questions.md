@@ -26,34 +26,51 @@ last_updated: 2026-11-23
 
 **Answer.**
 
-A **pixel** (picture element) is the smallest individual element of a digital image. It represents the intensity or color at one spatial location, identified by its row and column coordinates. In a grayscale image, a pixel holds one intensity value; in a color image, it holds a combination of channel values (for example, red, green, and blue).
+**Marking scheme:** definition (1) + spatial location (1) + grayscale vs color (1).
+
+A **pixel** (picture element) is the smallest individual element of a digital image. It represents the intensity or color at one spatial location, identified by its row and column coordinates `(x, y)`. In a grayscale image, a pixel holds one intensity value; in a color image, it holds a combination of channel values (for example, red, green, and blue).
+
+---
 
 ## Q1(b). Define a digital image. [CO1→C1]
 
 **Answer.**
 
+**Marking scheme:** 2D representation (1) + finite set of pixels (1) + mathematical notation `f(x, y)` (1).
+
 A **digital image** is a two-dimensional representation of an image formed by a finite set of pixels arranged in rows and columns. Each pixel has a discrete intensity or color value. Mathematically, it can be written as `f(x, y)`, where `x` and `y` are discrete spatial coordinates and `f` is the intensity at that point.
+
+---
 
 ## Q1(c). What does the number `0` usually represent in a digital image? [CO1→C1]
 
 **Answer.**
 
+**Marking scheme:** grayscale = black (1) + RGB `(0,0,0)` = black (1) + general meaning no light/signal (1).
+
 In a grayscale image, `0` usually represents the **lowest intensity**, which is displayed as **black**. In an RGB color image, a pixel with `(0, 0, 0)` represents black because all three color channels are at their minimum. In general, `0` means no light/signal contribution at that pixel.
+
+---
 
 ## Q2. Explain in your own words why a computer sees an image as numbers. [CO1→C2] [2]
 
 **Answer.**
 
-A computer cannot directly store or process light. During **image acquisition**, a sensor converts light intensity into an electrical signal. The signal is then **sampled** (measured at discrete spatial locations) and **quantized** (rounded to a finite set of intensity levels). The result is a matrix of numbers, where each number represents the intensity or color of a pixel. The computer processes these numbers using algorithms, and a display converts the numbers back into visible light.
+**Marking chain:** light → sensor → electrical signal → sampling → quantization → numeric matrix → processing/display (2 marks).
 
-**Key chain:** light → sensor → electrical signal → sampling → quantization → numeric matrix → processing/display.
+A computer cannot directly store or process light. During **image acquisition**, a sensor (CCD/CMOS) converts light intensity into an electrical signal. The signal is then **sampled** (measured at discrete spatial locations) and **quantized** (rounded to a finite set of intensity levels). The result is a matrix of numbers, where each number represents the intensity or color of a pixel. The computer processes these numbers using algorithms, and a display converts the numbers back into visible light.
+
+---
 
 ## Q3. Calculate the storage requirements in bytes for a 500×500 grayscale image with 8-bit pixels and a 500×500 color image with 8 bits per channel. [5]
 
 **Answer.**
 
-### Grayscale image
+**Marking scheme:** grayscale pixels/bits/bytes (2) + color bytes (2) + combined total (1).
 
+**Formula:** `Storage (bytes) = W × H × k / 8`, where `k` = bits per pixel (per channel for color).
+
+### Grayscale image
 - Pixels: `500 × 500 = 250,000`
 - Bits per pixel: `8`
 - Total bits: `250,000 × 8 = 2,000,000 bits`
@@ -63,10 +80,7 @@ A computer cannot directly store or process light. During **image acquisition**,
 \boxed{250{,}000\ \text{bytes} \approx 244.14\ \text{KiB}}
 \]
 
-### Color image
-
-Assume three channels (R, G, B), each 8 bits:
-
+### Color image (3 channels, 8 bits per channel)
 - Bits per pixel: `3 × 8 = 24 bits`
 - Total bits: `250,000 × 24 = 6,000,000 bits`
 - Total bytes: `6,000,000 / 8 = 750,000 bytes`
@@ -76,12 +90,13 @@ Assume three channels (R, G, B), each 8 bits:
 \]
 
 ### Combined
-
 \[
-250{,}000 + 750{,}000 = \boxed{1{,}000{,}000\ \text{bytes}}
+250{,}000 + 750{,}000 = \boxed{1{,}000{,}000\ \text{bytes} \approx 953.67\ \text{KiB}}
 \]
 
-**Exam tip:** always state the channel assumption. If the color image is not RGB, the number of channels may differ.
+**Exam tip:** Always state the channel assumption. If the color image is not RGB, the number of channels may differ.
+
+---
 
 ## Exam tips
 
@@ -90,6 +105,8 @@ Assume three channels (R, G, B), each 8 bits:
 - Storage = width × height × bits per pixel / 8.
 - For color, multiply by the number of channels.
 - Keep units clear: bits vs bytes.
+
+---
 
 ## Previous-semester questions (scanned papers)
 
@@ -107,15 +124,44 @@ Assume three channels (R, G, B), each 8 bits:
 **Q1(d) (OR).** Describe the frequency-domain image-processing workflow from input image to processed spatial-domain image. [10]
 
 **Answer.**
-(a) Fourier Theorem: any periodic signal can be represented as a sum of sinusoids. The **fundamental frequency** is the lowest frequency/common repetition rate; **harmonics** are integer multiples of the fundamental. A complex image intensity profile is approximated by adding these components.
-(b) **Fourier Series:** periodic continuous signal → discrete harmonic coefficients. **Fourier Transform:** non-periodic continuous signal → continuous frequency spectrum. **DFT:** finite discrete samples → discrete frequency bins; used for digital images.
-(c) **Low-pass:** attenuates high frequencies, smooths/blurs, reduces noise. **High-pass:** attenuates low frequencies, sharpens edges, enhances details. **Band-pass:** passes a middle frequency band; useful for texture or specific feature enhancement.
-(d) Convert image to frequency domain with DFT → apply a frequency-domain filter (multiply spectrum by filter transfer function) → inverse DFT → return to enhanced spatial-domain image.
+
+**Marking scheme (Q1a):** theorem statement (3) + fundamental frequency (2) + harmonics (2) + image example (3).
+**Marking scheme (Q1b):** three transforms defined with input/output (6) + comparison summary (4).
+**Marking scheme (Q1c):** three filters defined with effect (6) + example use (4).
+**Marking scheme (Q1d):** four steps in order (4) + purpose of each step (6).
+
+**(a) Fourier Theorem:** Any periodic signal can be represented as a sum of sinusoids (sines and cosines). The **fundamental frequency** is the lowest frequency / common repetition rate of the signal. **Harmonics** are integer multiples of the fundamental frequency. A complex image intensity profile (e.g., along a scanline) is approximated by adding these sinusoidal components; low frequencies capture broad smooth regions, high frequencies capture sharp edges and fine detail.
+
+**(b)** 
+- **Fourier Series:** periodic continuous-time signal → discrete harmonic coefficients.
+- **Fourier Transform:** non-periodic continuous-time signal → continuous frequency spectrum.
+- **DFT (Discrete Fourier Transform):** finite discrete samples → discrete frequency bins; the form used for digital images.
+
+**(c)**
+- **Low-pass filter:** attenuates high frequencies → smooths/blurs image, reduces noise, removes fine detail.
+- **High-pass filter:** attenuates low frequencies → sharpens edges, enhances fine detail, amplifies noise.
+- **Band-pass filter:** passes a middle frequency band → useful for texture or specific feature enhancement.
+
+**(d) Frequency-domain workflow:**
+1. Convert the spatial image to the frequency domain using the DFT → `F(u, v)`.
+2. Apply a frequency-domain filter `H(u, v)` by multiplying: `G(u, v) = F(u, v) × H(u, v)`.
+3. Apply the inverse DFT → enhanced spatial-domain image `g(x, y)`.
+
+---
 
 ### IP — Mid Term Spring 2026, CSE 443 (page 7)
 
 **Q2(a).** Discuss two limitations/failures of histogram equalization and how Adaptive Histogram Equalization (AHE) and CLAHE solve them. [10]
 
 **Answer.**
-Limitations: (1) global equalization may over-amplify noise in nearly constant regions; (2) one histogram for the whole image can over-change overall brightness or wash out local contrast.
-AHE computes equalization locally around each pixel, improving local contrast. CLAHE clips the histogram at a threshold before redistribution, controlling noise amplification while retaining local enhancement.
+
+**Marking scheme:** two limitations (4) + how AHE solves (3) + how CLAHE solves (3).
+
+**Limitation 1 — Over-amplification of noise in nearly constant regions:** Global histogram equalization stretches the narrow histogram of a flat region, amplifying sensor noise and creating visible banding.
+**Limitation 2 — One histogram for the whole image:** A single global transformation can over-change overall brightness or wash out local contrast, because it does not account for local image content.
+
+**How AHE solves it:** AHE computes histogram equalization **locally** around each pixel (using a small neighborhood), so contrast is enhanced according to local content rather than one global histogram. This improves local contrast but can over-amplify noise in homogeneous areas.
+
+**How CLAHE solves it:** **Contrast Limited Adaptive Histogram Equalization** clips the histogram at a predefined threshold before redistribution. The clipped excess is redistributed uniformly, which limits noise amplification while retaining local contrast enhancement. CLAHE is therefore preferred for medical and low-contrast images.
+
+**Lecture link:** Lectures 7–8 — intensity transformations, histogram equalization, gamma correction, sRGB; Lecture Notes — histogram equalization limitations.
