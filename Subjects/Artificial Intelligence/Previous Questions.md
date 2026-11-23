@@ -102,3 +102,47 @@ while stack is not empty:
 - For repeated states, mention both cycles and transpositions.
 - For DFS, mention the stack, backtracking, infinite depth, and the fixes.
 - For A*, remember `f(n) = g(n) + h(n)` and `h(n) <= h*(n)` for admissibility.
+
+## Previous-semester questions (scanned papers)
+
+> [!info] Source
+> Scanned CSE 4-2 previous Mid Term/Final papers from `../Previous QW/` were OCR’d. Only Artificial Intelligence (CSE 421) questions are included below. Some tables/diagrams could not be read clearly by OCR; answers use standard definitions and the course summary.
+
+### AI — Final Fall 2025, CSE 421 (page 1)
+
+**Q1(a).** Apply simple hill-climbing to an assumed problem and illustrate failure when all neighbors have equal or lower heuristic values. [10]
+
+**Q1(b).** Given state value 10 and neighbors 9, 12, and 7 from left to right, find the state steepest-ascent hill climbing chooses. [10]
+
+**Q1(c).** Apply minimax to the given tree and find the values for A, B, C, and D nodes. [10]
+
+**Answer.**
+(a) Hill climbing repeatedly moves to the best neighbor by heuristic value. If all neighbors of the current state have equal or lower values, there is no uphill move, so the search stops on a plateau or local maximum even if a better state exists farther away. Example: current h = 10, neighbors h = 9, 10, 10 → no strictly better neighbor, so stop.
+(b) Choose the neighbor with the highest value: **12 (right neighbor)**. Move from 10 to 12; repeat until no neighbor is strictly better.
+(c) Propagate leaf values upward: at a minimizing node take the child minimum; at a maximizing node take the child maximum. The tree image was OCR-garbled, so exact A/B/C/D values cannot be recovered; apply the bottom-up minimax rule to the readable tree.
+
+### AI — Mid Term Fall 2025, CSE 421 (page 3)
+
+**Q1(a).** In a dynamic environment where doors open and close unpredictably, examine how a Model-Based Agent and a Learning Agent would plan and adjust actions. [10]
+
+**Q1(b).** A crop-monitoring drone fails during cloudy weather. Identify which environment characteristic is affecting performance. [10]
+
+**Q1(c).** A cleaning robot slows down as the floor accumulates more dirt. Determine whether this is due to the agent or the environment. [10]
+
+**Answer.**
+(a) **Model-Based Agent:** keeps an internal model of which doors are open/closed and updates it as observations arrive; chooses actions using the model and goal. Useful when the environment changes between observations. **Learning Agent:** improves its policy from experience (which door actions succeeded or failed); better when door patterns are unknown or change over time.
+(b) The environment is **partially observable and dynamic**. Cloudy weather reduces sensor reliability and conditions change while the drone is operating.
+(c) Primarily the **environment**: accumulated dirt changes floor condition/friction and slows the robot. It is an agent problem only if the robot lacks dirt sensing or a cleaning-mode policy.
+
+### AI — Mid Term Spring 2026, CSE 421 (page 11)
+
+**Q1(a).** A robot vacuum cleaner repeatedly cleans already clean spots. Analyze the agent type and why it behaves this way. [10]
+
+**Q1(b).** A futuristic AI traffic light works like traffic police. Identify and classify the environment characteristics. [10]
+
+**Q1(c) (OR).** A goal-based warehouse robot completes delivery early but skips an item. Examine how goal-based logic caused this error. [10]
+
+**Answer.**
+(a) The vacuum behaves like a **simple reflex/model-based agent without a visited-set**: it reacts to “dirt detected” but does not mark cleaned spots, so it revisits them. Fix: add a cleaned-spots map and make the goal “clean every dirty spot exactly once.”
+(b) **Partially observable** (cannot see all vehicles), **dynamic** (traffic changes continuously), **sequential** (each signal decision affects later states), **multi-agent** (drivers and pedestrians), and **stochastic/continuous** (arrival times are uncertain).
+(c) The goal was formulated as “complete delivery early” without the constraint “deliver every item.” Fix: make the goal conjunctive (deliver all items and minimize time) or add an item-check/pickup step before ending the task.

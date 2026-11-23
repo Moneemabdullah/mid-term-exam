@@ -97,3 +97,44 @@ last_updated: 2026-11-23
 - For poverty, give a definition, then 4–5 types with characteristics and examples.
 - Use clear headings and examples; do not only list terms.
 - Remember the scope note: Q2 and Q3 are outside the suggested four-part scope.
+
+## Previous-semester questions (scanned papers)
+
+> [!info] Source
+> Scanned CSE 4-2 previous Mid Term/Final papers from `../Previous QW/` were OCR’d. Sociology questions appear under GED 421 Sociology for Engineers.
+
+### Sociology — Final Fall 2025, GED 421 (page 13)
+
+**Q1.** Discuss “Social Stratification” in the context of Bangladesh and its impact. [20]
+
+**Answer.**
+Social stratification is the hierarchical ranking of people by wealth, power, education, occupation, birth, and gender. In Bangladesh it appears through landownership, education access, urban-rural divides, remittance-based class differences, gender discrimination, and informal vs formal employment. Impacts: unequal access to health, education, and jobs; limited social mobility; concentration of political influence; and social tension. Engineers should design affordable, inclusive technology and infrastructure that serves lower-income and rural users, not only elite groups.
+
+### Sociology — Final Spring 2026, GED 421 (page 3)
+
+**Q1.** How does social stratification create discrimination and social problems? Discuss in the context of Bangladesh. [20]
+
+**Answer.**
+Stratification assigns unequal value and opportunity to groups, causing discrimination in jobs, education, housing, and services. In Bangladesh this deepens poverty, restricts women’s opportunities, marginalizes minorities, and widens urban-rural gaps. Resulting social problems include crime, poor health, low school completion, and weaker trust in institutions. Responses include inclusive public policy, quality schools and health services, and equal opportunity.
+
+### Sociology — Mid Fall 2025, GED 421 (page 11)
+
+**Q1(a).** Define “research” and choose a research topic with social impact. [5+?]
+
+**Q1(b).** Describe a research proposal to conduct the research successfully. [15]
+
+**Q2.** Describe the process and factors of socialization and how they influence personal development and identity formation. [20]
+
+**Answer.**
+(a) Research is systematic investigation to establish facts, test theories, or solve problems. Example topic: “Impact of ride-sharing apps on urban mobility and traffic in Dhaka.”
+(b) Proposal elements: title, problem statement, objectives, literature review, methodology (survey/interviews, sampling, data collection and analysis), timeline, expected outcomes, and ethics.
+(c) Socialization is learning culture, norms, roles, and values through family, school, peers, media, and workplace. It shapes language, behavior, gender roles, identity, and social skills. Factors: agents of socialization, culture, social class, education, and life events. For engineers, professional socialization adds safety culture, ethics, and teamwork.
+
+### Sociology — Mid Term Spring 2026, GED 421 (page 9)
+
+**Q1(a).** Define “research” and choose a research topic with social impact. [3+2]
+
+**Q1(b).** Describe a research proposal to conduct the research successfully. [?]
+
+**Answer.**
+See the Mid Fall 2025 answer above: research is systematic investigation; choose a focused socially relevant topic, then prepare objectives, methodology, timeline, expected outcomes, and ethics.

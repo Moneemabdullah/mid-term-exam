@@ -90,3 +90,32 @@ Assume three channels (R, G, B), each 8 bits:
 - Storage = width × height × bits per pixel / 8.
 - For color, multiply by the number of channels.
 - Keep units clear: bits vs bytes.
+
+## Previous-semester questions (scanned papers)
+
+> [!info] Source
+> Scanned CSE 4-2 previous Mid Term/Final papers from `../Previous QW/` were OCR’d. Only Digital Image Processing (CSE 443) questions are included below.
+
+### IP — Final Spring 2026, CSE 443 (page 1)
+
+**Q1(a).** State the Fourier Theorem. Explain the roles of fundamental frequency and harmonics in representing a complex signal. [10]
+
+**Q1(b).** Differentiate among Fourier Series, Fourier Transform, and Discrete Fourier Transform. [10]
+
+**Q1(c) (OR).** Compare low-pass, high-pass, and band-pass frequency-domain filters. [10]
+
+**Q1(d) (OR).** Describe the frequency-domain image-processing workflow from input image to processed spatial-domain image. [10]
+
+**Answer.**
+(a) Fourier Theorem: any periodic signal can be represented as a sum of sinusoids. The **fundamental frequency** is the lowest frequency/common repetition rate; **harmonics** are integer multiples of the fundamental. A complex image intensity profile is approximated by adding these components.
+(b) **Fourier Series:** periodic continuous signal → discrete harmonic coefficients. **Fourier Transform:** non-periodic continuous signal → continuous frequency spectrum. **DFT:** finite discrete samples → discrete frequency bins; used for digital images.
+(c) **Low-pass:** attenuates high frequencies, smooths/blurs, reduces noise. **High-pass:** attenuates low frequencies, sharpens edges, enhances details. **Band-pass:** passes a middle frequency band; useful for texture or specific feature enhancement.
+(d) Convert image to frequency domain with DFT → apply a frequency-domain filter (multiply spectrum by filter transfer function) → inverse DFT → return to enhanced spatial-domain image.
+
+### IP — Mid Term Spring 2026, CSE 443 (page 7)
+
+**Q2(a).** Discuss two limitations/failures of histogram equalization and how Adaptive Histogram Equalization (AHE) and CLAHE solve them. [10]
+
+**Answer.**
+Limitations: (1) global equalization may over-amplify noise in nearly constant regions; (2) one histogram for the whole image can over-change overall brightness or wash out local contrast.
+AHE computes equalization locally around each pixel, improving local contrast. CLAHE clips the histogram at a threshold before redistribution, controlling noise amplification while retaining local enhancement.

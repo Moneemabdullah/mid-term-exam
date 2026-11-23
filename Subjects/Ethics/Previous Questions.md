@@ -137,3 +137,64 @@ Other acceptable values: transparency, safety, sustainability, confidentiality, 
 - For “why” questions, give reasons and examples.
 - For responsibilities, separate employees and customers.
 - Link answers to public safety, trust, and professional accountability.
+
+## Previous-semester questions (scanned papers)
+
+> [!info] Source
+> Scanned CSE 4-2 previous Mid Term/Final papers from `../Previous QW/` were OCR’d. Ethics questions appear under GED 423 Engineering Ethics and CSE 417 Engineering Ethics and Management.
+
+### Ethics — Final Fall 2025, GED 423 (page 11)
+
+**Q1(a).** Explain what is engineering ethics and why it matters. [10]
+
+**Q1(b).** Distinguish between personal ethics and professional ethics in engineering. [10]
+
+**Answer.**
+(a) Engineering ethics is the study of morally desirable decisions, policies, and values in engineering practice and research. It matters because engineering decisions affect public safety, health, welfare, trust, and the environment; small mistakes can have large, long-term consequences.
+(b) Personal ethics are personal and internal (upbringing, culture, conscience). Professional ethics are role-based, public-facing, code-based, and concerned with duties to clients, employers, colleagues, and the public.
+
+### Ethics — Final Spring 2024, CSE 417 Engineering Ethics and Management (page 5)
+
+**Q1(a).** Case study: AI-generated George Carlin comedy special uploaded without family permission. [20]
+
+**Answer.**
+Key ethical issues: consent/personality rights (family and estate not asked), possible deception of audiences, attribution and respect for a deceased artist, and harm to reputation/legacy. Responsibility lies with the developers/producers and the distributing platform: obtain permission, label AI-generated content clearly, and respect the family’s wishes. Principles: respect for persons, honesty, avoiding deception, and accountability.
+
+### Ethics — Final Spring 2025, CSE 417 Engineering Ethics and Management (page 9)
+
+**Q1.** Rahim finds a compiler flaw; the system fails repeatedly; Anika’s programs were running during many failures; the director inspects Anika’s files and suspends her. [30 total]
+
+**Sub-question.** Who has rights in this case? What rights are those? Who has responsibility to protect the rights? [10]
+
+**Answer.**
+Rights: Rahim has the right to fair accusation and due process; Anika has rights to privacy, fair treatment, and access to computing resources for education; the computing center has the right to protect system integrity. Responsibility lies with the director and administrators: investigate fairly, avoid punishing without evidence, protect privacy, and provide appeal/due process.
+
+### Ethics — Final Spring 2026, GED 423 Engineering Ethics (page 9)
+
+**Q2(a).** Analyze core aspects of ethical problem-solving and how they support effective decision-making. [10]
+
+**Q2(b).** Apply ethical problem-solving steps to resolve an engineering ethical dilemma. [10]
+
+**Answer.**
+(a) Core aspects: recognize the moral issue, gather facts, identify stakeholders and options, apply ethical principles/codes, evaluate consequences, decide and justify, act, and review. This makes decisions reasoned, consistent, transparent, and accountable rather than intuitive.
+(b) Example: whether to report a safety defect. Steps: define the dilemma, collect facts (standards, risks, costs), identify stakeholders (public, employer, client), apply the public-safety-first code, compare reporting vs. concealing, decide to report through proper channels, document, and follow up.
+
+### Ethics — Mid Fall 2024, CSE 417 Engineering Ethics and Management (page 1)
+
+**Q1.** Sophia (data scientist, fitness tech) case: ethical issues, decision about sharing data with an insurer, and justification. [12 + 12 + 6]
+
+**Answer.**
+Key issues: user consent and privacy, purpose limitation (fitness data shared with an insurer), potential harm (denial of coverage/higher premiums), trust, and transparency. Sophia should not share identifiable health data without informed consent and a lawful basis; she should escalate to privacy/legal review and inform users. Justification: respect for persons, non-maleficence, data minimization, and accountability to users and the public.
+
+### Ethics — Mid Spring 2024, CSE 417 Engineering Ethics and Management (page 9)
+
+**Q1(a).** Describe ethics and its distinct types. [08]
+
+**Q1(b).** What is the purpose of studying engineering ethics, and what responsibilities do engineers have? [12]
+
+**Q1(c).** How is technology defined? What are the differences between technological determinism and technological optimism? [10]
+
+**Answer.**
+(a) Ethics: principles for right and wrong conduct. Types: meta-ethics (nature of morality), normative ethics (utilitarianism, deontology, virtue ethics), applied ethics (professional, business, bioethics), and descriptive ethics (study of actual moral beliefs).
+(b) Purpose: recognize moral issues, reason about professional duties, and protect public safety. Responsibilities: public safety first, competence, honesty/integrity, confidentiality, fairness, avoiding conflicts of interest, and accountability.
+(c) Technology: practical application of knowledge, tools, and methods to solve problems. **Technological determinism:** technology largely drives society and history by itself. **Technological optimism:** technology generally brings progress and benefits, though risks should still be managed.
