@@ -1,0 +1,24 @@
+# Obsidian local state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and temp files
+*.tmp
+*.swp
+*.swo
+*~
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+
+# Local archives and exports
+*.zip
+*.tar.gz
