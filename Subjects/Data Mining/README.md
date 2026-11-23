@@ -19,35 +19,35 @@ last_updated: 2026-11-23
 > **Materials collected; summaries and Apriori supplement added.** Study and revision are not complete.
 
 > [!tip] Start here — subject hub
-> 1. [Syllabus](/Subjects/Data Mining/Syllabus.md) + [Teacher Suggestions](/Subjects/Data Mining/Teacher Suggestions.md) — scope.
-> 2. [Lecture Summary](/Subjects/Data Mining/Lecture Summary.md) + [Important Topics](/Subjects/Data Mining/Important Topics.md) — first pass.
-> 3. [Previous Questions](/Subjects/Data Mining/Previous Questions.md) — closed-book practice.
-> 4. [Weak Topics](/Subjects/Data Mining/Weak Topics.md) — repair errors.
-> 5. [Revision 1](/Subjects/Data Mining/Revision/Revision 1.md) → [Revision 2](/Subjects/Data Mining/Revision/Revision 2.md) → [Exam Day](/Subjects/Data Mining/Revision/Exam Day.md).
-> 6. [Study Materials](/Subjects/Data Mining/Study Materials/README.md) + [Lecture Notes](/Subjects/Data Mining/Lecture Notes/README.md) + [Resources](/Subjects/Data Mining/Resources.md) — sources and general links.
-> - How to study: [Learning Workflow](/Learning Workflow.md) · What to study today: [Daily Study Lineup](/Daily Study Lineup.md)
+> 1. [Syllabus](Syllabus.md) + [Teacher Suggestions](Teacher Suggestions.md) — scope.
+> 2. [Lecture Summary](Lecture Summary.md) + [Important Topics](Important Topics.md) — first pass.
+> 3. [Previous Questions](Previous Questions.md) — closed-book practice.
+> 4. [Weak Topics](Weak Topics.md) — repair errors.
+> 5. [Revision 1](Revision/Revision 1.md) → [Revision 2](Revision/Revision 2.md) → [Exam Day](Revision/Exam Day.md).
+> 6. [Study Materials](Study Materials/README.md) + [Lecture Notes](Lecture Notes/README.md) + [Resources](Resources.md) — sources and general links.
+> - How to study: [Learning Workflow](../../Learning Workflow.md) · What to study today: [Daily Study Lineup](../../Daily Study Lineup.md)
 
 ## Quick links
 
-- [Syllabus](/Subjects/Data Mining/Syllabus.md)
-- [Lecture Summary](/Subjects/Data Mining/Lecture Summary.md)
-- [Important Topics](/Subjects/Data Mining/Important Topics.md)
-- [Previous Questions](/Subjects/Data Mining/Previous Questions.md)
-- [Teacher Suggestions](/Subjects/Data Mining/Teacher Suggestions.md)
-- [Weak Topics](/Subjects/Data Mining/Weak Topics.md)
-- [Resources](/Subjects/Data Mining/Resources.md)
-- [Revision 1](/Subjects/Data Mining/Revision/Revision 1.md)
-- [Revision 2](/Subjects/Data Mining/Revision/Revision 2.md)
-- [Exam Day](/Subjects/Data Mining/Revision/Exam Day.md)
-- [Apriori Supplement](/Subjects/Data Mining/Lecture Notes/Apriori Supplement.md)
+- [Syllabus](Syllabus.md)
+- [Lecture Summary](Lecture Summary.md)
+- [Important Topics](Important Topics.md)
+- [Previous Questions](Previous Questions.md)
+- [Teacher Suggestions](Teacher Suggestions.md)
+- [Weak Topics](Weak Topics.md)
+- [Resources](Resources.md)
+- [Revision 1](Revision/Revision 1.md)
+- [Revision 2](Revision/Revision 2.md)
+- [Exam Day](Revision/Exam Day.md)
+- [Apriori Supplement](Lecture Notes/Apriori Supplement.md)
 
 ## Folders
 
-- **Lecture notes:** [Lecture Notes](/Subjects/Data Mining/Lecture Notes/README.md)
+- **Lecture notes:** [Lecture Notes](Lecture Notes/README.md)
   - `Lecture Notes/Apriori Supplement.md`
-- **Study materials:** [Study Materials](/Subjects/Data Mining/Study Materials/README.md)
+- **Study materials:** [Study Materials](Study Materials/README.md)
   - PDFs: `Study Materials/PDFs/`
-  - Question banks: [Question Banks](/Subjects/Data Mining/Study Materials/Question Banks/README.md)
+  - Question banks: [Question Banks](Study Materials/Question Banks/README.md)
 
 ## Progress checklist
 
@@ -96,7 +96,7 @@ Status values: **Provided**, **Missing**, **Scanned-unreadable**, **Duplicate**.
 - Extract syllabus topics only from actual materials.
 - Keep teacher suggestions separate from the official syllabus.
 - Mark missing, unreadable, or scanned materials clearly.
-- Update this README, [Syllabus](/Subjects/Data Mining/Syllabus.md), [Lecture Summary](/Subjects/Data Mining/Lecture Summary.md), [Important Topics](/Subjects/Data Mining/Important Topics.md), [Previous Questions](/Subjects/Data Mining/Previous Questions.md), and [Progress Tracker](/Progress Tracker.md) when appropriate.
+- Update this README, [Syllabus](Syllabus.md), [Lecture Summary](Lecture Summary.md), [Important Topics](Important Topics.md), [Previous Questions](Previous Questions.md), and [Progress Tracker](../../Progress Tracker.md) when appropriate.
 
 ## Update log
 

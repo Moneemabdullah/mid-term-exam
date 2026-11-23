@@ -5,10 +5,10 @@ Store raw lecture notes and imported lecture files here.
 ## Contents
 
 - No raw handwritten Ethics notes are stored here yet.
-- The condensed notes are in [Lecture Summary](/Subjects/Ethics/Lecture Summary.md).
+- The condensed notes are in [Lecture Summary](../Lecture Summary.md).
 - The slide decks are in `../Study Materials/Slides/`.
 - The NSPE Code is in `../Study Materials/PDFs/3. NPSE code of ethics.pdf`.
-- The cross-subject notebook is at [Shared Materials/Handwritten Notebook](/Shared Materials/Handwritten Notebook/README.md).
+- The cross-subject notebook is at [Shared Materials/Handwritten Notebook](../../../Shared Materials/Handwritten Notebook/README.md).
 
 ## Naming
 
@@ -20,5 +20,5 @@ Store raw lecture notes and imported lecture files here.
 
 - Preserve original files.
 - Do not overwrite existing notes.
-- Link each note from [Lecture Summary](/Subjects/Ethics/Lecture Summary.md).
-- Record imported files in the subject [README](/Subjects/Ethics/README.md) inventory.
+- Link each note from [Lecture Summary](../Lecture Summary.md).
+- Record imported files in the subject [README](../README.md) inventory.

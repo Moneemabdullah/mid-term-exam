@@ -15,11 +15,11 @@ last_updated: 2026-11-23
 
 | Date | Day | Subject | Code | Credit | Mid-term marks | Time / venue | Status |
 |---|---|---|---|---|---|---|---|
-| 29 November 2026 | Sunday | [Artificial Intelligence](/Subjects/Artificial Intelligence/README.md) | CSE 421 | 3 | 90 | TBD | Materials collected |
-| 30 November 2026 | Monday | [Data Mining](/Subjects/Data Mining/README.md) | CSE 441 | 2 | 60 | TBD | Materials collected |
-| 1 December 2026 | Tuesday | [Ethics](/Subjects/Ethics/README.md) | GED 423 | 2 | 60 | TBD | Materials collected |
-| 2 December 2026 | Wednesday | [Image Processing](/Subjects/Image Processing/README.md) | CSE 443 | 2 | 60 | TBD | Materials collected |
-| 3 December 2026 | Thursday | [Sociology](/Subjects/Sociology/README.md) | GED 421 | 2 | 60 | TBD | Questions only |
+| 29 November 2026 | Sunday | [Artificial Intelligence](Subjects/Artificial Intelligence/README.md) | CSE 421 | 3 | 90 | TBD | Materials collected |
+| 30 November 2026 | Monday | [Data Mining](Subjects/Data Mining/README.md) | CSE 441 | 2 | 60 | TBD | Materials collected |
+| 1 December 2026 | Tuesday | [Ethics](Subjects/Ethics/README.md) | GED 423 | 2 | 60 | TBD | Materials collected |
+| 2 December 2026 | Wednesday | [Image Processing](Subjects/Image Processing/README.md) | CSE 443 | 2 | 60 | TBD | Materials collected |
+| 3 December 2026 | Thursday | [Sociology](Subjects/Sociology/README.md) | GED 421 | 2 | 60 | TBD | Questions only |
 
 ## Related courses without a scheduled mid-term
 

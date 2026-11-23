@@ -13,7 +13,7 @@
 
 ### Shared notebook
 
-- [Handwritten Notebook](/Shared Materials/Handwritten Notebook/README.md) — Ethics pages 4, 17, 23, 36.
+- [Handwritten Notebook](../../../Shared Materials/Handwritten Notebook/README.md) — Ethics pages 4, 17, 23, 36.
 
 ## Subfolders
 
@@ -27,7 +27,7 @@
 - Preserve original files.
 - Do not overwrite; add a version suffix if needed.
 - Check for duplicates before adding.
-- Record every file in the subject [README](/Subjects/Ethics/README.md) inventory.
+- Record every file in the subject [README](../README.md) inventory.
 - Mark scanned or unreadable files clearly.
 - Extract syllabus topics only from actual materials.
 - Keep teacher suggestions separate from the syllabus.

@@ -5,7 +5,7 @@ last_updated: 2026-11-23
 
 # Learning Workflow
 
-> [!tip] Use this with [Daily Study Lineup](/Daily Study Lineup.md)
+> [!tip] Use this with [Daily Study Lineup](Daily Study Lineup.md)
 > The lineup decides **what** to study each day. This page decides **how** to study each topic.
 
 ## The learning loop
@@ -22,7 +22,7 @@ last_updated: 2026-11-23
 
 ## Daily loop
 
-1. Pick **one subject and one topic** from [Daily Study Lineup](/Daily Study Lineup.md).
+1. Pick **one subject and one topic** from [Daily Study Lineup](Daily Study Lineup.md).
 2. Put the phone away and set a timer.
 3. Use **50 minutes study + 10 minutes break**, or **25 + 5** if tired.
 4. Start with recall from the previous session, not with rereading.
@@ -63,7 +63,7 @@ last_updated: 2026-11-23
 
 ## Progress rule
 
-Update [Progress Tracker](/Progress Tracker.md) only when one of these is true:
+Update [Progress Tracker](Progress Tracker.md) only when one of these is true:
 
 - You answered a previous question without notes.
 - You reproduced a formula or diagram from memory.

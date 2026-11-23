@@ -12,6 +12,6 @@ Store previous questions, model questions, and practice sets here.
 - Preserve original files.
 - Do not overwrite existing files.
 - Check for duplicates before adding.
-- Record each file in the subject [README](/Subjects/Image Processing/README.md) inventory.
-- Add actual questions to [Previous Questions](/Subjects/Image Processing/Previous Questions.md).
+- Record each file in the subject [README](../../README.md) inventory.
+- Add actual questions to [Previous Questions](../../Previous Questions.md).
 - Do not invent questions.

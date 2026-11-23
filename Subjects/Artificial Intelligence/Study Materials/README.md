@@ -16,7 +16,7 @@
 
 ### Shared notebook
 
-- [Handwritten Notebook](/Shared Materials/Handwritten Notebook/README.md) — AI pages 1–3, 9–12, 20–22, 28, 31–32, 35.
+- [Handwritten Notebook](../../../Shared Materials/Handwritten Notebook/README.md) — AI pages 1–3, 9–12, 20–22, 28, 31–32, 35.
 
 ## Subfolders
 
@@ -29,7 +29,7 @@
 - Preserve original files.
 - Do not overwrite; add a version suffix if needed.
 - Check for duplicates before adding.
-- Record every file in the subject [README](/Subjects/Artificial Intelligence/README.md) inventory.
+- Record every file in the subject [README](../README.md) inventory.
 - Mark scanned or unreadable files clearly.
 - Extract syllabus topics only from actual materials.
 - Keep teacher suggestions separate from the syllabus.

@@ -7,7 +7,7 @@ Store raw lecture notes and imported lecture files here.
 - `Converted/Introduction, Foundation, History, Application of AI.docx.md`
 - `Converted/Agents and Environments.docx.md`
 - `Converted/State Space Search (uninformed and Informed Search).docx.md`
-- The cross-subject handwritten notebook is stored at [Shared Materials/Handwritten Notebook](/Shared Materials/Handwritten Notebook/README.md).
+- The cross-subject handwritten notebook is stored at [Shared Materials/Handwritten Notebook](../../../Shared Materials/Handwritten Notebook/README.md).
 
 ## Naming
 
@@ -19,5 +19,5 @@ Store raw lecture notes and imported lecture files here.
 
 - Preserve original files.
 - Do not overwrite existing notes.
-- Link each note from [Lecture Summary](/Subjects/Artificial Intelligence/Lecture Summary.md).
-- Record imported files in the subject [README](/Subjects/Artificial Intelligence/README.md) inventory.
+- Link each note from [Lecture Summary](../Lecture Summary.md).
+- Record imported files in the subject [README](../README.md) inventory.

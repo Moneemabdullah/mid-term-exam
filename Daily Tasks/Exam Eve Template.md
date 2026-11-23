@@ -39,4 +39,4 @@ exam_date:
 
 - [ ] Record difficult questions
 - [ ] Update the subject's `Weak Topics.md`
-- [ ] Update [Progress Tracker](/Progress Tracker.md)
+- [ ] Update [Progress Tracker](../Progress Tracker.md)

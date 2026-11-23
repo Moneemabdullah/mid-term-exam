@@ -25,8 +25,8 @@ last_updated: 2026-11-23
 
 - Do not treat a suggestion as syllabus content unless it is confirmed.
 - Mark unverified suggestions clearly.
-- Link each suggestion to the relevant topic in [Important Topics](/Subjects/Ethics/Important Topics.md).
-- Update [Weak Topics](/Subjects/Ethics/Weak Topics.md) if a suggestion reveals a gap.
+- Link each suggestion to the relevant topic in [Important Topics](Important Topics.md).
+- Update [Weak Topics](Weak Topics.md) if a suggestion reveals a gap.
 
 ## Follow-up
 

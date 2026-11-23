@@ -17,11 +17,11 @@ last_updated: 2026-11-23
 
 | Subject | Checklist | Confidence | Status |
 |---|---|---|---|
-| [Artificial Intelligence](/Subjects/Artificial Intelligence/README.md) | 2 / 8 | — / 5 | Materials collected |
-| [Data Mining](/Subjects/Data Mining/README.md) | 2 / 8 | — / 5 | Materials collected |
-| [Ethics](/Subjects/Ethics/README.md) | 2 / 8 | — / 5 | Materials collected |
-| [Image Processing](/Subjects/Image Processing/README.md) | 2 / 8 | — / 5 | Materials collected |
-| [Sociology](/Subjects/Sociology/README.md) | 2 / 8 | — / 5 | Questions only |
+| [Artificial Intelligence](Subjects/Artificial Intelligence/README.md) | 2 / 8 | — / 5 | Materials collected |
+| [Data Mining](Subjects/Data Mining/README.md) | 2 / 8 | — / 5 | Materials collected |
+| [Ethics](Subjects/Ethics/README.md) | 2 / 8 | — / 5 | Materials collected |
+| [Image Processing](Subjects/Image Processing/README.md) | 2 / 8 | — / 5 | Materials collected |
+| [Sociology](Subjects/Sociology/README.md) | 2 / 8 | — / 5 | Questions only |
 
 **Overall:** 10 / 40 checklist items complete.
 
@@ -109,6 +109,6 @@ last_updated: 2026-11-23
 
 - Do not tick a box based on intention; tick it only after the work is done.
 - Use the subject `README.md` for material inventory details.
-- Use [Revision Tracker](/Revision Tracker.md) for topic-level revision dates.
+- Use [Revision Tracker](Revision Tracker.md) for topic-level revision dates.
 - Recalculate the overall checklist total after each update.
 - Do not tick “Syllabus completed” or “Notes completed” merely because summaries exist.

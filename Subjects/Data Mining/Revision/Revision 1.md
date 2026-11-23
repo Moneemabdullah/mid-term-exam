@@ -24,7 +24,7 @@ last_updated: 2026-11-21
 
 - [ ] Solve at least one basic question per major topic.
 - [ ] Review every mistake.
-- [ ] Add weak topics to [Weak Topics](/Subjects/Data Mining/Weak Topics.md).
+- [ ] Add weak topics to [Weak Topics](../Weak Topics.md).
 
 ## Doubts
 
@@ -35,4 +35,4 @@ last_updated: 2026-11-21
 - [ ] Every syllabus topic is covered once.
 - [ ] Notes are condensed.
 - [ ] Weak topics are listed.
-- [ ] [Revision Tracker](/Revision Tracker.md) is updated.
+- [ ] [Revision Tracker](../../../Revision Tracker.md) is updated.

@@ -19,35 +19,35 @@ last_updated: 2026-11-23
 > **Materials collected; summaries and class-test answers added.** Study and revision are not complete.
 
 > [!tip] Start here — subject hub
-> 1. [Syllabus](/Subjects/Artificial Intelligence/Syllabus.md) + [Teacher Suggestions](/Subjects/Artificial Intelligence/Teacher Suggestions.md) — scope.
-> 2. [Lecture Summary](/Subjects/Artificial Intelligence/Lecture Summary.md) + [Important Topics](/Subjects/Artificial Intelligence/Important Topics.md) — first pass.
-> 3. [Previous Questions](/Subjects/Artificial Intelligence/Previous Questions.md) — closed-book practice.
-> 4. [Weak Topics](/Subjects/Artificial Intelligence/Weak Topics.md) — repair errors.
-> 5. [Revision 1](/Subjects/Artificial Intelligence/Revision/Revision 1.md) → [Revision 2](/Subjects/Artificial Intelligence/Revision/Revision 2.md) → [Exam Day](/Subjects/Artificial Intelligence/Revision/Exam Day.md).
-> 6. [Study Materials](/Subjects/Artificial Intelligence/Study Materials/README.md) + [Lecture Notes](/Subjects/Artificial Intelligence/Lecture Notes/README.md) + [Resources](/Subjects/Artificial Intelligence/Resources.md) — sources and general links.
-> - How to study: [Learning Workflow](/Learning Workflow.md) · What to study today: [Daily Study Lineup](/Daily Study Lineup.md)
+> 1. [Syllabus](Syllabus.md) + [Teacher Suggestions](Teacher Suggestions.md) — scope.
+> 2. [Lecture Summary](Lecture Summary.md) + [Important Topics](Important Topics.md) — first pass.
+> 3. [Previous Questions](Previous Questions.md) — closed-book practice.
+> 4. [Weak Topics](Weak Topics.md) — repair errors.
+> 5. [Revision 1](Revision/Revision 1.md) → [Revision 2](Revision/Revision 2.md) → [Exam Day](Revision/Exam Day.md).
+> 6. [Study Materials](Study Materials/README.md) + [Lecture Notes](Lecture Notes/README.md) + [Resources](Resources.md) — sources and general links.
+> - How to study: [Learning Workflow](../../Learning Workflow.md) · What to study today: [Daily Study Lineup](../../Daily Study Lineup.md)
 
 ## Quick links
 
-- [Syllabus](/Subjects/Artificial Intelligence/Syllabus.md)
-- [Lecture Summary](/Subjects/Artificial Intelligence/Lecture Summary.md)
-- [Important Topics](/Subjects/Artificial Intelligence/Important Topics.md)
-- [Previous Questions](/Subjects/Artificial Intelligence/Previous Questions.md)
-- [Teacher Suggestions](/Subjects/Artificial Intelligence/Teacher Suggestions.md)
-- [Weak Topics](/Subjects/Artificial Intelligence/Weak Topics.md)
-- [Resources](/Subjects/Artificial Intelligence/Resources.md)
-- [Revision 1](/Subjects/Artificial Intelligence/Revision/Revision 1.md)
-- [Revision 2](/Subjects/Artificial Intelligence/Revision/Revision 2.md)
-- [Exam Day](/Subjects/Artificial Intelligence/Revision/Exam Day.md)
+- [Syllabus](Syllabus.md)
+- [Lecture Summary](Lecture Summary.md)
+- [Important Topics](Important Topics.md)
+- [Previous Questions](Previous Questions.md)
+- [Teacher Suggestions](Teacher Suggestions.md)
+- [Weak Topics](Weak Topics.md)
+- [Resources](Resources.md)
+- [Revision 1](Revision/Revision 1.md)
+- [Revision 2](Revision/Revision 2.md)
+- [Exam Day](Revision/Exam Day.md)
 
 ## Folders
 
-- **Lecture notes:** [Lecture Notes](/Subjects/Artificial Intelligence/Lecture Notes/README.md)
+- **Lecture notes:** [Lecture Notes](Lecture Notes/README.md)
   - Converted notes: `Lecture Notes/Converted/`
-- **Study materials:** [Study Materials](/Subjects/Artificial Intelligence/Study Materials/README.md)
+- **Study materials:** [Study Materials](Study Materials/README.md)
   - PDFs: `Study Materials/PDFs/`
-  - Question banks: [Question Banks](/Subjects/Artificial Intelligence/Study Materials/Question Banks/README.md)
-- **Shared notebook:** [Handwritten Notebook](/Shared Materials/Handwritten Notebook/README.md)
+  - Question banks: [Question Banks](Study Materials/Question Banks/README.md)
+- **Shared notebook:** [Handwritten Notebook](../../Shared Materials/Handwritten Notebook/README.md)
 
 ## Progress checklist
 
@@ -93,7 +93,7 @@ Status values: **Provided**, **Missing**, **Scanned-unreadable**, **Duplicate**.
 - Extract syllabus topics only from actual materials.
 - Keep teacher suggestions separate from the official syllabus.
 - Mark missing, unreadable, or scanned materials clearly.
-- Update this README, [Syllabus](/Subjects/Artificial Intelligence/Syllabus.md), [Lecture Summary](/Subjects/Artificial Intelligence/Lecture Summary.md), [Important Topics](/Subjects/Artificial Intelligence/Important Topics.md), [Previous Questions](/Subjects/Artificial Intelligence/Previous Questions.md), and [Progress Tracker](/Progress Tracker.md) when appropriate.
+- Update this README, [Syllabus](Syllabus.md), [Lecture Summary](Lecture Summary.md), [Important Topics](Important Topics.md), [Previous Questions](Previous Questions.md), and [Progress Tracker](../../Progress Tracker.md) when appropriate.
 
 ## Update log
 

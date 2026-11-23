@@ -33,7 +33,7 @@
 - Preserve original files.
 - Do not overwrite; add a version suffix if needed.
 - Check for duplicates before adding.
-- Record every file in the subject [README](/Subjects/Data Mining/README.md) inventory.
+- Record every file in the subject [README](../README.md) inventory.
 - Mark scanned or unreadable files clearly.
 - Extract syllabus topics only from actual materials.
 - Keep teacher suggestions separate from the syllabus.

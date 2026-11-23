@@ -7,7 +7,7 @@ last_updated: 2026-11-23
 # Study Plan
 
 > [!info] Adaptable framework
-> The day-by-day plan is in [Daily Study Lineup](/Daily Study Lineup.md). This page is the adaptable framework behind it; adjust it when materials or availability change.
+> The day-by-day plan is in [Daily Study Lineup](Daily Study Lineup.md). This page is the adaptable framework behind it; adjust it when materials or availability change.
 
 > [!important] Current baseline
 > Materials are organized and summaries/answers are written. **Study has not started.** The checklist total is **10 / 40** because only “Materials collected” and “Syllabus identified” are complete for each subject.
@@ -59,7 +59,7 @@ This is a starting order, not a final priority ranking. Re-rank after syllabus i
 - [ ] Estimate topic size and difficulty from the actual materials.
 - [ ] Create lecture notes or summaries for each topic.
 - [ ] Mark topics that need a second explanation.
-- [ ] Update [Progress Tracker](/Progress Tracker.md).
+- [ ] Update [Progress Tracker](Progress Tracker.md).
 
 **Done when:** Every syllabus topic is marked covered at least once.
 
@@ -75,7 +75,7 @@ This is a starting order, not a final priority ranking. Re-rank after syllabus i
 - [ ] Redraw key diagrams and derive key formulas.
 - [ ] Solve at least one basic question per major topic.
 - [ ] Add weak topics to the subject `Weak Topics.md`.
-- [ ] Update [Revision Tracker](/Revision Tracker.md).
+- [ ] Update [Revision Tracker](Revision Tracker.md).
 
 **Done when:** All topics have one revision entry and weak topics are listed.
 
@@ -117,7 +117,7 @@ This is a starting order, not a final priority ranking. Re-rank after syllabus i
 - [ ] Re-learn each weak topic from the source material.
 - [ ] Solve targeted questions.
 - [ ] Record the evidence that the topic is now understood.
-- [ ] Update [Revision Tracker](/Revision Tracker.md) and [Progress Tracker](/Progress Tracker.md).
+- [ ] Update [Revision Tracker](Revision Tracker.md) and [Progress Tracker](Progress Tracker.md).
 
 **Done when:** Weak topics are either resolved or clearly marked for final review.
 
@@ -155,7 +155,7 @@ Use this after the syllabi are available. Do not fill it with guesses.
 
 ## Adaptable weekly rhythm
 
-A day-by-day plan is in [Daily Study Lineup](/Daily Study Lineup.md). Adjust the number and length of blocks to your actual availability.
+A day-by-day plan is in [Daily Study Lineup](Daily Study Lineup.md). Adjust the number and length of blocks to your actual availability.
 
 - **Primary block:** the next exam subject.
 - **Secondary block:** the following exam subject.
@@ -182,4 +182,4 @@ Revisit this plan when:
 - Extract syllabus topics only from actual materials.
 - Keep teacher suggestions clearly separate.
 - Mark missing, unreadable, or scanned materials.
-- Update subject README files and [Progress Tracker](/Progress Tracker.md) after changes.
+- Update subject README files and [Progress Tracker](Progress Tracker.md) after changes.

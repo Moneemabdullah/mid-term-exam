@@ -79,4 +79,4 @@ You should be able to:
 - Quote exact wording from the source.
 - Record the file name and page or slide number.
 - Do not merge teacher suggestions into this file as if they were official syllabus content.
-- Use [Teacher Suggestions](/Subjects/Sociology/Teacher Suggestions.md) for the suggestion trail.
+- Use [Teacher Suggestions](Teacher Suggestions.md) for the suggestion trail.
